@@ -15,7 +15,18 @@ namespace CISP1010
         /// <param name="args">string array for passing in command line arguments</param>
         static void Main(string[] args)
         {
-            // TODO
+            string inputValue;
+            int x;
+
+            Console.Write("Enter a number: ");
+            inputValue = Console.ReadLine();
+            x = Convert.ToInt32(inputValue);
+
+
+            Console.Write("Enter a number: ");
+            x = Convert.ToInt32(Console.ReadLine());
+
+
         }
     }
 }

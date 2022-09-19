@@ -18,7 +18,11 @@ namespace CISP1010
         /// <param name="args">string array for passing in command line arguments</param>
         static void Main(string[] args)
         {
-            // TODO
+            //remember the result of any Boolean expression is a Boolean;
+            bool isEligible = true;
+
+
+
         }
     }
 }
