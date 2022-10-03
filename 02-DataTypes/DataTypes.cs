@@ -1,8 +1,7 @@
 ﻿/// <summary>
 /// File: DataTypes.cs
 /// Name: John McMeen
-/// Class: CISP1010
-/// Semester: Fall 2022
+/// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP1010 Examples
 /// </summary>
 namespace CISP1010
@@ -11,12 +10,11 @@ namespace CISP1010
     /// A program that demonstrates declaring variables of common C# types
     /// </summary>
     internal class DataTypes
-    {        
+    {
         /// <summary>
-        /// The Main method is an an entry point for the program
+        /// Program entry point
         /// </summary>
-        /// <param name="args">string array for passing in command line arguments</param>
-        static void Main(string[] args)
+        static void Main()
         {
             #region Declaring and printing variables
             //Declaring a variable called a

@@ -1,22 +1,20 @@
 ﻿/// <summary>
 /// File: Operators.cs
 /// Name: John McMeen
-/// Class: CISP1010
-/// Semester: Fall 2022
+/// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP1010 Examples
 /// </summary>
 namespace CISP1010
 {
     /// <summary>
-    /// A program that demonstrates selection statements
+    /// Program entry point
     /// </summary>
     internal class Operators
     {
         /// <summary>
         /// The Main method is an an entry point for the program
         /// </summary>
-        /// <param name="args">string array for passing in command line arguments</param>
-        static void Main(string[] args)
+        static void Main()
         {
             //declare some variables
             int a, b, c, d, e;
@@ -36,11 +34,11 @@ namespace CISP1010
             Console.WriteLine("e = " + e + "\n");
 
             //examples of equality operators
-            g = a == 13;  //equal
-            f = b != 7;   //not equal
+            f = a == 13;  //equal
+            g = b != 7;   //not equal
 
-            Console.WriteLine("a == 13 is " + g);
-            Console.WriteLine("b != 7 is " + f + "\n");
+            Console.WriteLine("a == 13 is " + f);
+            Console.WriteLine("b != 7 is " + g + "\n");
 
             //examples of comparison operators
             h = a < 10;     //less than

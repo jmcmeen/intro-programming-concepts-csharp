@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// File: HelloWorld.cs
+/// File: Methods.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP1010 Examples
@@ -7,16 +7,17 @@
 namespace CISP1010
 {
     /// <summary>
-    /// A simple "Hello World" program
+    /// A program to demonstrate various loops
     /// </summary>
-    internal class HelloWorld
+    internal class Loops
     {
         /// <summary>
         /// Program entry point
         /// </summary>
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            //see in class module
+
         }
     }
 }

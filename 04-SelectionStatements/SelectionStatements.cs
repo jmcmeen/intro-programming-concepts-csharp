@@ -1,8 +1,7 @@
 ﻿/// <summary>
 /// File: SelectionStatements.cs
 /// Name: John McMeen
-/// Class: CISP1010
-/// Semester: Fall 2022
+/// Email: jnmcmeen@northeaststate.edu
 /// Project: CISP1010 Examples
 /// </summary>
 namespace CISP1010
@@ -11,18 +10,13 @@ namespace CISP1010
     /// A program that demonstrates the use of common selection statements in C#
     /// </summary>
     internal class SelectionStatements
-    {        
+    {
         /// <summary>
-        /// The Main method is an an entry point for the program
+        /// Program entry point
         /// </summary>
-        /// <param name="args">string array for passing in command line arguments</param>
-        static void Main(string[] args)
+        static void Main()
         {
-            //remember the result of any Boolean expression is a Boolean;
-            bool isEligible = true;
-
-
-
+            //See in class module
         }
     }
 }
