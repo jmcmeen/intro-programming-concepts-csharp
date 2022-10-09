@@ -2,7 +2,7 @@
 /// File: DataTypes.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP1010 Examples
+/// Project: C# Examples
 /// </summary>
 namespace CISP1010
 {
@@ -16,6 +16,7 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
+       
             #region Declaring and printing variables
             //Declaring a variable called a
             int a;

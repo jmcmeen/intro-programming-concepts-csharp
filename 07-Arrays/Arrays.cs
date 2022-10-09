@@ -1,22 +1,22 @@
 ﻿/// <summary>
-/// File: SelectionStatements.cs
+/// File: Arrays.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP1010 Examples
+/// Project: C# Examples
 /// </summary>
 namespace CISP1010
 {
     /// <summary>
-    /// A program that demonstrates the use of common selection statements in C#
+    /// A program to demonstrate arrays
     /// </summary>
-    internal class SelectionStatements
+    internal class Arrays
     {
         /// <summary>
         /// Program entry point
         /// </summary>
         static void Main()
         {
-            //See in class module
+            //TODO
         }
     }
 }

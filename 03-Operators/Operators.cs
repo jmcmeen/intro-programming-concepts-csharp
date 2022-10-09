@@ -2,17 +2,17 @@
 /// File: Operators.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP1010 Examples
+/// Project: C# Examples
 /// </summary>
 namespace CISP1010
 {
     /// <summary>
-    /// Program entry point
+    /// A program to demonstrate various operators
     /// </summary>
     internal class Operators
     {
         /// <summary>
-        /// The Main method is an an entry point for the program
+        /// Program entry point
         /// </summary>
         static void Main()
         {

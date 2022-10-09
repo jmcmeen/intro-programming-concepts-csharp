@@ -2,9 +2,8 @@
 /// File: Methods.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
-/// Project: CISP1010 Examples
+/// Project: C# Examples
 /// </summary>
-
 namespace CISP1010
 {
     /// <summary>
@@ -20,7 +19,6 @@ namespace CISP1010
             PrintWelcomeMessage();
             PrintWelcomeMessage("Hello World");
             Console.WriteLine(Square(9));
-
         }
 
         /// <summary>
