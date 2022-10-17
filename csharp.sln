@@ -45,8 +45,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00-Template", "00-Template\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06-SimpleMenu", "06-SimpleMenu\06-SimpleMenu.csproj", "{4DA8D4F0-C4A5-4A89-ACB4-D93B9F8C6237}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZZ-Testing", "XX-Testing\ZZ-Testing.csproj", "{358E6A90-C5FB-4E21-B239-16D601F71BA4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,10 +135,6 @@ Global
 		{4DA8D4F0-C4A5-4A89-ACB4-D93B9F8C6237}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DA8D4F0-C4A5-4A89-ACB4-D93B9F8C6237}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DA8D4F0-C4A5-4A89-ACB4-D93B9F8C6237}.Release|Any CPU.Build.0 = Release|Any CPU
-		{358E6A90-C5FB-4E21-B239-16D601F71BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{358E6A90-C5FB-4E21-B239-16D601F71BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{358E6A90-C5FB-4E21-B239-16D601F71BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{358E6A90-C5FB-4E21-B239-16D601F71BA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

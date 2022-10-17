@@ -21,9 +21,13 @@
                 {
                     case '1':
                         Console.WriteLine("\nYou picked choice one!\n");
+                        Thread.Sleep(2000);
+                        Console.Clear();
                         break;
                     case '2':
                         Console.WriteLine("\nYou picked choice two!\n");
+                        Thread.Sleep(2000);
+                        Console.Clear();
                         break;
                     case '3':
                         Console.WriteLine("\nBye!\n");
@@ -43,7 +47,11 @@
             Console.WriteLine("2. Option 2");
             Console.WriteLine("3. Exit\n");
 
-            return PromptForChar("choice->") ;
+            char choice = PromptForChar("choice->");
+
+            Console.Clear();
+
+            return  choice;
         }
         
         /// <summary>

@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string message = "Hello World! How are you today?\n\n";
+            string message = "Hello, Neo\n\n";
 
             ConsoleUtilities.PrintColor(message, ConsoleColor.Red);
             ConsoleUtilities.PrintRainbow(message);
