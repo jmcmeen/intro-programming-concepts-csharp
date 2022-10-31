@@ -48,7 +48,6 @@
             Console.WriteLine("3. Exit\n");
 
             char choice = PromptForChar("choice->");
-
             Console.Clear();
 
             return  choice;
