@@ -21,7 +21,7 @@
         static uint RollDice(uint numSides)
         {
             Random r = new Random();
-            int temp = r.Next(1, Convert.ToInt32(numSides));
+            int temp = r.Next(1, Convert.ToInt32(numSides + 1));
             uint output = Convert.ToUInt32(temp);
             return output;
         }

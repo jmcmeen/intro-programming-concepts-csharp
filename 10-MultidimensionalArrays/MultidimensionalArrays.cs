@@ -9,6 +9,8 @@
             
             Random r = new Random();
 
+            
+
 
             for(int i = 0; i < scores.GetLength(0); i++)
             {
