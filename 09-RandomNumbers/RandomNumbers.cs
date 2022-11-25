@@ -1,4 +1,10 @@
-﻿namespace CISP1010
+﻿/// <summary>
+/// File: RandomNumbers.cs
+/// Name: John McMeen
+/// Email: jnmcmeen@northeaststate.edu
+/// Project: C# Examples
+/// </summary>
+namespace CISP1010
 {
     internal class RandomNumbers
     {

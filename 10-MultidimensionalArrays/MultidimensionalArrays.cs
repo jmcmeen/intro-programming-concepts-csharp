@@ -1,4 +1,10 @@
-﻿namespace _10_MultidimensionalArrays
+﻿/// <summary>
+/// File: MultidimensionalArrays.cs
+/// Name: John McMeen
+/// Email: jnmcmeen@northeaststate.edu
+/// Project: C# Examples
+/// </summary>
+namespace _10_MultidimensionalArrays
 {
     internal class MultidimensionalArrays
     {
