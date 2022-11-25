@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: Objects3.cs
+﻿/// File: Objects3.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace CISP1010
 {
     /// <summary>

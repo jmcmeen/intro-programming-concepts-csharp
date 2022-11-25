@@ -1,4 +1,8 @@
-﻿namespace CISP1010
+﻿/// File: SimpleMenu.cs
+/// Name: John McMeen
+/// Email: jnmcmeen@northeaststate.edu
+/// Project: C# Examples
+namespace CISP1010
 {
     /// <summary>
     /// An example program that creates a simple menu using a switch statement

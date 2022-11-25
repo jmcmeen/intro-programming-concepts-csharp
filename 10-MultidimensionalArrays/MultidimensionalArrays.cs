@@ -1,23 +1,22 @@
-﻿/// <summary>
-/// File: MultidimensionalArrays.cs
+﻿/// File: MultidimensionalArrays.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
-namespace _10_MultidimensionalArrays
+namespace CISP1010
 {
+    /// <summary>
+    /// Demonstration of multidimensional arrays
+    /// </summary>
     internal class MultidimensionalArrays
     {
-        static void Main(string[] args)
+        //Entry point for the application
+        static void Main()
         {
             int[,] scores = new int[5,10];
-
             
             Random r = new Random();
 
-            
-
-
+            //set all the values in multidimensional array
             for(int i = 0; i < scores.GetLength(0); i++)
             {
                 for(int j = 0; j < scores.GetLength(1); j++)
@@ -26,7 +25,7 @@ namespace _10_MultidimensionalArrays
                 }
             }
 
-
+            //print allthe values in multidimensional array
             for (int i = 0; i < scores.GetLength(0); i++)
             {
                 for (int j = 0; j < scores.GetLength(1); j++)

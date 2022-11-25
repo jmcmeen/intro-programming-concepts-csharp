@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: ComparisonOperators.cs
+﻿/// File: ComparisonOperators.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace ComparisonOperators
 {
     /// <summary>

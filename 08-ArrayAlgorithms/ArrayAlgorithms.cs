@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: ArrayAlgorithms.cs
+﻿/// File: ArrayAlgorithms.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace ArrayAlgorithms
 {
     /// <summary>

@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: Arrays.cs
+﻿/// File: Arrays.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace CISP1010
 {
     /// <summary>

@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: Operators.cs
+﻿/// File: Operators.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace CISP1010
 {
     /// <summary>

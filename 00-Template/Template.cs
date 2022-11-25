@@ -1,9 +1,7 @@
-﻿/// <summary>
-/// File: 
+﻿/// File: 
 /// Name: 
 /// Email: 
 /// Project: 
-/// </summary>
 namespace CISP1010
 {
     /// <summary>

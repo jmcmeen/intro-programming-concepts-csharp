@@ -1,14 +1,18 @@
-﻿/// <summary>
-/// File: IndicesRanges.cs
+﻿/// File: IndicesRanges.cs
 /// Name: John McMeen
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
-/// </summary>
 namespace CISP1010
 {
-    internal class Program
+    /// <summary>
+    /// Demonstration of negative array indices and ranges
+    /// </summary>
+    internal class IndicesRanges
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             //Indices let you refer to elements relative to the end of an array by using the ^ operator.
             //^1 refers to the last element, ^2 refers to the second-to-last element, and so on:
