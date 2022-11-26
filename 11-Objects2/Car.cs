@@ -9,11 +9,10 @@ namespace CISP1010
     /// </summary>
     internal class Car
     {
-        //Private attributes
-        private string color;
-        private string make;
-        private string model;
-        private double price;
+        public string Color { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public double Price { get; set; }
 
         /// <summary>
         /// Parameterized constructor
@@ -24,31 +23,10 @@ namespace CISP1010
         /// <param name="price">The price of the Car</param>
         public Car(string color, string make, string model, double price)
         {
-            this.color = color;
-            this.make = make;
-            this.model = model;
-            this.price = price;
+            this.Color = color;
+            this.Make = make;
+            this.Model = model;
+            this.Price = price;
         }
-
-        #region Public Properties
-        //Here we define public properties for private attributes
-        //Notice C# let's you use a couple different syntaxes to achieve the same goal
-        //I prefer the first for properties that require more than one line of code
-        //The second is good for one liners
-        //The formatting of the last two is common, just moving everything to one line
-        //You can chose whichever format you would like in this course
-        public string Color 
-        { 
-            get { return color; } 
-            set { color = value; } 
-        }
-        public string Make 
-        { 
-            get => make; 
-            set => make = value; 
-        }
-        public string Model { get => model; set => model = value; }
-        public double Price { get => price; set => price = value; }
-        #endregion
     }
 }

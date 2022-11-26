@@ -20,19 +20,19 @@ namespace CISP1010
             //Create a Person object using parameterized constructor
             Person b = new Person("Snerfle", "Burf", 20);
 
-            //The Person object gives public access to its fields,
-            //so we can get (access) and set (mutate) them directly
-            Console.WriteLine($"a = {a.firstName} {a.lastName} {a.age}");
-            Console.WriteLine($"b = {b.firstName} {b.lastName} {b.age}");
+            //The Person object gives public access to its fields through
+            //automatic properties so we can get (access) and set (mutate) them directly
+            Console.WriteLine($"a = {a.FirstName} {a.LastName} {a.Age}");
+            Console.WriteLine($"b = {b.FirstName} {b.LastName} {b.Age}");
 
             //Since the object reference a was set up with default values,
             //we might want to change them later
-            a.firstName = "Lucy";
-            a.lastName = "Goosey";
-            a.age = 42;
+            a.FirstName = "Lucy";
+            a.LastName = "Goosey";
+            a.Age = 42;
 
             //Print the Person object again, noting the changes to the object
-            Console.WriteLine($"a = {a.firstName} {a.lastName} {a.age}");
+            Console.WriteLine($"a = {a.FirstName} {a.LastName} {a.Age}");
         }
     }
 }

@@ -9,20 +9,21 @@ namespace CISP1010
     /// </summary>
     internal class Book
     {
-        private string title;
-        private string author;
-        private ushort pages;
-        private string isbn;
+        //Here we define public automatic properties
+        public string Title { get; set; }
+        public string Author { get; set; }
+        public ushort Pages { get; set; }
+        public string ISBN { get; set; }
 
         /// <summary>
         /// Default constructor
         /// </summary>
         public Book()
         {
-            this.title = "";
-            this.author = "";
-            this.pages = 0;
-            this.isbn = "";
+            Title = "";
+            Author = "";
+            Pages = 0;
+            ISBN = "";
         }
 
         /// <summary>
@@ -34,17 +35,11 @@ namespace CISP1010
         /// <param name="isbn">The ISBN number of the Book</param>
         public Book(string title, string author, ushort pages, string isbn)
         {
-            this.title = title;
-            this.author = author;
-            this.pages = pages;
-            this.isbn = isbn;
+            Title = title;
+            Author = author;
+            Pages = pages;
+            ISBN = isbn;
         }
-
-        //Here we define public properties for private attributes
-        public string Title { get => title; set => title = value; }
-        public string Author { get => author; set => author = value; }
-        public ushort Pages { get => pages; set => pages = value; }
-        public string ISBN { get => isbn; set => isbn = value; }
 
         /// <summary>
         /// Creates a string representation of the Book
@@ -52,7 +47,7 @@ namespace CISP1010
         /// <returns>The string representation of the Book</returns>
         override public string ToString()
         {
-            return $"title={title}\nauthor={author}\npages={pages}\nISBN={isbn}";
+            return $"title={Title}\nauthor={Author}\npages={Pages}\nISBN={ISBN}";
         }
     }
 }

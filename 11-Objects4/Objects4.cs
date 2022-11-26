@@ -9,7 +9,7 @@ namespace CISP1010
     /// </summary>
     internal class Objects4
     {
-        static void Main(string[] args)
+        static void Main()
         {
             //Create a new Television object using default constructor
             Television a = new Television();

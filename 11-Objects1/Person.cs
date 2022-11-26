@@ -9,18 +9,18 @@ namespace CISP1010
     /// </summary>
     internal class Person
     {
-        public string lastName;
-        public string firstName;
-        public int age;
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public int Age { get; set; }
 
         /// <summary>
         /// Default constructor
         /// </summary>
         public Person()
         {
-            this.lastName = "Jenkins";
-            this.firstName = "Leroy";
-            this.age = 42;
+            this.LastName = "Jenkins";
+            this.FirstName = "Leroy";
+            this.Age = 42;
         }
 
         /// <summary>
@@ -31,9 +31,9 @@ namespace CISP1010
         /// <param name="age">The age of the Person</param>
         public Person(string lastName, string firstName, int age)
         {
-            this.lastName = lastName;   
-            this.firstName = firstName;
-            this.age = age;
+            LastName = lastName;   
+            FirstName = firstName;
+            Age = age;
         }
     }
 }

@@ -24,6 +24,7 @@ namespace CISP1010
 
         /// <summary>
         /// Sets the Television channel if it is between a valid range, otherwise does nothing
+        /// This is a more of a classic OOP design and a property could be used instead
         /// </summary>
         /// <param name="channel">A channel number</param>
         public void SetChannel(ushort channel)
@@ -32,6 +33,24 @@ namespace CISP1010
             { 
                 this.channel = channel;
             }
+        }
+
+        /// <summary>
+        /// Here we accomplish the same thing as SetChannel above using a property
+        /// to expose a private member, but also get the convencience of creating
+        /// a get property in the same block.
+        /// </summary>
+        public ushort Channel
+        {
+            set
+            {
+                if (channel >= MIN_CHANNEL && channel <= MAX_CHANNEL)
+                {
+                    this.channel = value;
+                }
+            }
+
+            get { return channel; }
         }
 
         /// <summary>
@@ -71,6 +90,9 @@ namespace CISP1010
         /// <returns>The string representation of the Television</returns>
         override public string ToString()
         {
+            //could also use the public get property Channel
+            //return $"TV-> current channel: {Channel}";
+
             return $"TV-> current channel: {channel}";
         }
     }
