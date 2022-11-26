@@ -14,17 +14,21 @@ namespace CISP1010
             //Create a new Television object using default constructor
             Television a = new Television();
 
+            Console.WriteLine("Setting the channel to 42\n");
+
             //Besides fields and properties, objects can have methods that operate on the object
             //Here we set the channel
             a.SetChannel(42);
 
-            Console.WriteLine(a.ToString() + "\n");
+            Console.WriteLine(a + "\n");
 
-            //The set channel method is designed to prevent the programmer from setting an invalid
-            //channel values
-            a.SetChannel(1000);
+            Console.WriteLine("Setting the channel to 1000\n");
 
-            Console.WriteLine(a.ToString() + "\n");
+            //The SetChannel method and Channel property are both designed to prevent the
+            //programmer from setting an invalid channel value (here 1000 > MAX_CHANNEL in Television)
+            a.Channel = 1000;
+
+            Console.WriteLine(a + "\n");
 
             //Television also has some methods for incrementing and decrementing channels
             //Here we will demo them in a loop to call each method a given number of times

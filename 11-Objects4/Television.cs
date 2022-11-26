@@ -23,8 +23,8 @@ namespace CISP1010
         }
 
         /// <summary>
-        /// Sets the Television channel if it is between a valid range, otherwise does nothing
-        /// This is a more of a classic OOP design and a property could be used instead
+        /// Sets the Television channel if it is between a valid range, otherwise does nothing.
+        /// This is a more of a classic OOP design and a Channel property could be used instead (see below)
         /// </summary>
         /// <param name="channel">A channel number</param>
         public void SetChannel(ushort channel)
@@ -36,17 +36,20 @@ namespace CISP1010
         }
 
         /// <summary>
-        /// Here we accomplish the same thing as SetChannel above using a property
-        /// to expose a private member, but also get the convencience of creating
-        /// a get property in the same block.
+        /// Here we accomplish the same thing as the SetChannel method above using a property
+        /// to expose a private field to outside classes. Here we also get the convenience of creating
+        /// a get property in the same block, without creating another GetChannel method
+        /// 
+        /// Ideally, you would pick one or the other form to have in your code. The property
+        /// below is a more C# standard approach.
         /// </summary>
         public ushort Channel
         {
             set
             {
-                if (channel >= MIN_CHANNEL && channel <= MAX_CHANNEL)
+                if (value >= MIN_CHANNEL && value <= MAX_CHANNEL)
                 {
-                    this.channel = value;
+                    channel = value;
                 }
             }
 
