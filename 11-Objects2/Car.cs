@@ -36,6 +36,7 @@ namespace CISP1010
         //I prefer the first for properties that require more than one line of code
         //The second is good for one liners
         //The formatting of the last two is common, just moving everything to one line
+        //You can chose whichever format you would like in this course
         public string Color 
         { 
             get { return color; } 
