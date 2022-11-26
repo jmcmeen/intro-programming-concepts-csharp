@@ -32,8 +32,20 @@ namespace CISP1010
 
         #region Public Properties
         //Here we define public properties for private attributes
-        public string Color { get => color; set => color = value; }
-        public string Make { get => make; set => make = value; }
+        //Notice C# let's you use a couple different syntaxes to achieve the same goal
+        //I prefer the first for properties that require more than one line of code
+        //The second is good for one liners
+        //The formatting of the last two is common, just moving everything to one line
+        public string Color 
+        { 
+            get { return color; } 
+            set { color = value; } 
+        }
+        public string Make 
+        { 
+            get => make; 
+            set => make = value; 
+        }
         public string Model { get => model; set => model = value; }
         public double Price { get => price; set => price = value; }
         #endregion
