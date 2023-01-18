@@ -3,7 +3,7 @@
   <Class Name="CISP1010.Television">
     <Position X="7.25" Y="2.75" Width="2.75" />
     <TypeIdentifier>
-      <HashCode>AEAAAAAgAAAAICAEAAAAAAAAEAAAAAAAAQAAAAACAAA=</HashCode>
+      <HashCode>AEAAAAAgAAAAICAEAAAAAAAAEAAAAAAAAwAAAAACAAA=</HashCode>
       <FileName>Television.cs</FileName>
     </TypeIdentifier>
   </Class>

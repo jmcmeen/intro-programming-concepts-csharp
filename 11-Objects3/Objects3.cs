@@ -42,6 +42,9 @@ namespace CISP1010
             //Book also has a ToString method that bundles up all the values in a Book, and anything else we want in
             //a string representation of a Book, and returns a string
             Console.WriteLine(b.ToString());
+
+
+            Console.WriteLine(b);
         }
     }
 }

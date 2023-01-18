@@ -36,7 +36,7 @@ namespace CISP1010
             for(int i = 0; i < 12; i++)
             {
                 a.ChannelUp();
-                Console.WriteLine(a.ToString());
+                Console.WriteLine(a);
             }
 
             Console.WriteLine("\nCalling ChannelDown() five times");

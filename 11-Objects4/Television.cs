@@ -35,6 +35,11 @@ namespace CISP1010
             }
         }
 
+        public ushort GetChannel()
+        {
+            return channel;
+        }
+
         /// <summary>
         /// Here we accomplish the same thing as the SetChannel method above using a property
         /// to expose a private field to outside classes. Here we also get the convenience of creating
@@ -62,13 +67,13 @@ namespace CISP1010
         /// </summary>
         public void ChannelUp()
         {
-            if(this.channel == MAX_CHANNEL)
+            if(channel == MAX_CHANNEL)
             {
-                this.channel = MIN_CHANNEL;
+                channel = MIN_CHANNEL;
             }
             else
             {
-                this.channel++;
+                channel++;
             }
         }
         /// <summary>
