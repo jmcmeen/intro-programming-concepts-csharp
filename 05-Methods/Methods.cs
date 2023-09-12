@@ -14,8 +14,13 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
+            //use the first version of PrintWelcomeMessage
             PrintWelcomeMessage();
+
+            //This is another version, which takes a parameter and prints what is passed in
+            //Two or more methods with the same name is called method overloading
             PrintWelcomeMessage("Hello World");
+
             Console.WriteLine(Square(9));
         }
 
