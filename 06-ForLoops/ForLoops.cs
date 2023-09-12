@@ -24,6 +24,7 @@ namespace CISP1010
             }
             Console.WriteLine();
 
+            //use a foreach loop to create a read-only alias to an array element
             foreach (int myInt in myIntegers)
             {
                 Console.WriteLine(myInt);
