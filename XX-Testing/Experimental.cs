@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace XX_Experimental
 {
     class Experimental
     {
@@ -17,7 +17,7 @@
             notes[0] = 440.0; //a5
             char input;
 
-            for(int i = 1; i < notes.Length; i++)
+            for (int i = 1; i < notes.Length; i++)
             {
                 notes[i] = notes[i - 1] * 1.05946309436;
             }

@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace XX_Experimental
 {
     internal class ConsoleUtilities
     {
@@ -10,7 +10,7 @@
             do
             {
                 color = (ConsoleColor)r.Next(16);
-            }while(color == ConsoleColor.Black);
+            } while (color == ConsoleColor.Black);
 
             return color;
         }
@@ -23,7 +23,7 @@
 
         public static void PrintRainbow(string message)
         {
-            foreach(char c in message)
+            foreach (char c in message)
             {
                 PrintCharacter(GetRandomColor(), c);
             }
@@ -34,9 +34,9 @@
             Random r = new Random();
             string newString = "";
 
-            foreach(char c in inputString)
+            foreach (char c in inputString)
             {
-                if(r.Next() % 2 == 0)
+                if (r.Next() % 2 == 0)
                 {
                     newString += c.ToString().ToUpper();
                 }

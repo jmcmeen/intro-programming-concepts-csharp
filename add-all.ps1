@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Include *.csproj | ForEach-Object { dotnet sln add $_ }
