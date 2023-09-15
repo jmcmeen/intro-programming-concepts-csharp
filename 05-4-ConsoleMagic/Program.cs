@@ -21,6 +21,9 @@ namespace _05_4_ConsoleMagic
             TheButtersShow();
         }
 
+        /// <summary>
+        /// Prints the Console Magic intro screen
+        /// </summary>
         static void IntroScreen()
         {
             string appName =
@@ -48,6 +51,9 @@ namespace _05_4_ConsoleMagic
             Console.Clear();
         }
 
+        /// <summary>
+        /// Prints "The Conquerer Worm" by Edgar Allen Poe
+        /// </summary>
         static void TheConquererWorm()
         {
             string conquererWorm = @"
@@ -106,6 +112,9 @@ namespace _05_4_ConsoleMagic
             Console.Clear();
         }
 
+        /// <summary>
+        /// Because cherry is the best.
+        /// </summary>
         static void TheButtersShow()
         {
             string alternateCased = ConsoleWizard.AlternateCase("\"Cherry is the best flavor of Kool-Aid\" - Butters \n\n");
