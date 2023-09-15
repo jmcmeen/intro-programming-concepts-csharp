@@ -18,7 +18,7 @@ namespace Toxic
             //Name that tune!
             Console.WriteLine("Toxic by Britney Spears");
 
-            //Now just say the magic word, Toxic();
+            //Now just say the magic words, PlayToxic();
             PlayToxic();
         }
 
