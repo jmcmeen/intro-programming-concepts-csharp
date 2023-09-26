@@ -14,7 +14,7 @@ namespace CISP1010
         static void Main()
         {
             //creat an array of integer values
-            int[] myIntegers = { 0, 32, 65, 127, 23225232, -1 };
+            int[] myIntegers = { 1, 32, 65, 127, 23225232, -1 };
 
             //use a for loop to visit each element in the array
             for (int i = 0; i < myIntegers.Length; i++)

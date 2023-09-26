@@ -107,7 +107,10 @@ namespace _02_1_DataTypes
             double width = 3;
             double area = length * width;
             Console.WriteLine("Area" + area);
+
             #endregion
+
+
         }
     }
 }

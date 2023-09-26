@@ -2,12 +2,12 @@
 /// Email: jnmcmeen@northeaststate.edu
 /// Project: C# Examples
 
-namespace Util
+namespace _05_3_StaticClasses //namespace block, similar to namespace declaration, no difference in functionality
 {
-    public class Prompt
+    public static class Prompt
     {
         /// <summary>
-        /// Prompts the user for an int value
+        /// Prompts the user for an int value and returns it
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
@@ -19,7 +19,7 @@ namespace Util
         }
 
         /// <summary>
-        /// 
+        /// Prompts the user for a float value and returns it
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
@@ -31,7 +31,7 @@ namespace Util
         }
 
         /// <summary>
-        /// 
+        /// Prompts the user for an double value and returns it
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>

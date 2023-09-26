@@ -26,7 +26,7 @@ namespace CISP1010
                 if (numDice > 0)
                 {
                     //Then prompt the user to enter number of sides on dice
-                    Console.WriteLine(" Enter num sides: ");
+                    Console.Write(" Enter num sides: ");
                     numSides = Convert.ToInt32(Console.ReadLine());
 
                     //TODO: implement dice roller algorithm here

@@ -13,14 +13,22 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
+            int y;
+
             //use the first version of PrintWelcomeMessage
             PrintWelcomeMessage();
 
             //This is another version, which takes a parameter and prints what is passed in
             //Two or more methods with the same name is called method overloading
-            PrintWelcomeMessage("Hello World");
+            PrintWelcomeMessage("Welcome!");
 
-            Console.WriteLine(Square(9));
+            y = Square(9);
+
+            y = Add(4, 6);
+
+            double z = Add(5.0, 6.0);
+
+            Console.WriteLine(y);
         }
 
         /// <summary>
@@ -31,7 +39,6 @@ namespace CISP1010
             Console.WriteLine("------------------------------------");
             Console.WriteLine("       Welcome to the Program!      ");
             Console.WriteLine("------------------------------------");
-
         }
 
         /// <summary>
@@ -40,11 +47,23 @@ namespace CISP1010
         /// <param name="message">Message to print</param>
         static void PrintWelcomeMessage(string message)
         {
+            message = "Not Something";
             Console.WriteLine("------------------------------------");
             Console.WriteLine($"            {message}      ");
             Console.WriteLine("------------------------------------");
-
         }
+
+
+        static int Add(int x, int y)
+        {
+            return x + y;
+        }
+
+        static double Add(double x, double y)
+        {
+            return x + y;
+        }
+
 
         /// <summary>
         /// Squares an int

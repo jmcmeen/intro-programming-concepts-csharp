@@ -18,6 +18,7 @@ namespace CISP1010
             //each step in a for loop.
 
             int counter = 0; //establish starting point
+
             while (counter < 5)
             { //evaluate logic condition
                 LiftWeight();
@@ -25,12 +26,29 @@ namespace CISP1010
                 counter++;      //at some point make sure the sentinel value
             }
 
+            //do-while loop
+            counter = 0;
+            do
+            {
+                LiftWeight();
+                LowerWeight();
+                counter++;
+            } while (counter < 5);
+
             //The for-loop is designed for counting, and allows us to set up a counting
             //loop with less code than the for loop.
             for (int i = 0; i < 5; i++)
             {
                 LiftWeight();
                 LowerWeight();
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Console.WriteLine($"{i} - {j}");
+                }
             }
         }
 
