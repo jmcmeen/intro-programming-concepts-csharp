@@ -36,6 +36,21 @@ namespace CISP1010
             {
                 Console.WriteLine(num);
             }
+
+            Console.WriteLine();
+
+            //If you already have the values you want to store in mind, you can optionally create an array like this.
+            int[] myNums2 = {8, 6, 7, 5, 3, 0, 9 };
+            PrintArrayOnOneLine(myNums2);
+        }
+
+        static void PrintArrayOnOneLine(int[] array)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write($"{array[i]} ");
+            }
+            Console.WriteLine();
         }
     }
 }

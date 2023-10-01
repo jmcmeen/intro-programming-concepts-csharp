@@ -16,6 +16,16 @@ namespace _05_4_ConsoleMagic
         static void Main(string[] args)
         {
             //Methods that demonstrate the use of ConsoleWizard.dll
+
+            //This Visual Studio Project contains a project reference to a class library, Util,
+            //which is another project in this solution.
+
+            //Class libraries are .dll file (dynamic link library) which is a precompiled code library.
+
+            //Class libraries can not contain a class with a Main() method.
+
+            //Adding the project reference will move the compiled Util.dll file into the bin directory
+            //for this program when this project is compiled, allowing it to use code from that project.
             IntroScreen();
             TheConquererWorm();
             TheButtersShow();
