@@ -27,13 +27,14 @@ namespace CISP1010
             }
 
             //do-while loop
-            counter = 0;
+            counter = 0; //notice we had to reset the counter to reuse it
             do
             {
                 LiftWeight();
                 LowerWeight();
                 counter++;
-            } while (counter < 5);
+            } 
+            while (counter < 5);
 
             //The for-loop is designed for counting, and allows us to set up a counting
             //loop with less code than the for loop.
@@ -43,12 +44,19 @@ namespace CISP1010
                 LowerWeight();
             }
 
+            //Nested for-loop example
             for (int i = 0; i < 10; i++)
             {
                 for (int j = 0; j < 10; j++)
                 {
                     Console.WriteLine($"{i} - {j}");
                 }
+            }
+
+            //Reverse for-loop 
+            for (int i = 9; i >= 0; i--)
+            {
+                Console.WriteLine($"{i}");
             }
         }
 

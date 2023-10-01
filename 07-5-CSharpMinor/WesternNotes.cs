@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _07_5_CSharpMinor
+﻿namespace _07_5_CSharpMinor
 {
-    public  class WesternNotes
+    public static class WesternNotes
     {
-        
         public const int cSharp = 277;
         public const int dSharp = 311;
         public const int E = 329;

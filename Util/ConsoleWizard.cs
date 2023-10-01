@@ -1,6 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-
-namespace Util
+﻿namespace Util
 {
     public class ConsoleWizard
     {

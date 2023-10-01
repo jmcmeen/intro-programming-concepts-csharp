@@ -7,7 +7,7 @@ class Program
     /// </summary>
     static void Main()
     {
-        //Example usage of Util.Prompt class methods
+        //Example usage of Prompt class methods
         int input1 = Prompt.ForInt("Enter an integer: ");
 
         float input2 = Prompt.ForFloat("Enter a float: ");

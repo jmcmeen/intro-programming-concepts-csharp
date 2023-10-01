@@ -35,6 +35,11 @@ namespace _06_SimpleMenu
                     case '3':
                         Console.WriteLine("\nBye!\n");
                         break;
+                    default:
+                        Console.WriteLine($"{choice} is not an option.");
+                        Thread.Sleep(2000);
+                        Console.Clear();
+                        break;
                 }
 
             } while (choice != '3');
