@@ -7,13 +7,22 @@ class Program
     /// </summary>
     static void Main()
     {
-        //Example usage of Prompt class methods
-        int input1 = Prompt.ForInt("Enter an integer: ");
+        #region declare variables
+        int g;
+        float m;
+        double n;
+        #endregion
 
-        float input2 = Prompt.ForFloat("Enter a float: ");
+        #region prompt for values
+        g = Prompt.ForInt("Enter an int: ");
+        m = Prompt.ForFloat("Enter a float: ");
+        n = Prompt.ForDouble("Pardon me, may I have a double?: ");
+        #endregion
 
-        double input3 = Prompt.ForDouble("Enter a double: ");
-
-        Console.WriteLine($"You entered {input1}, {input2}, {input3}");
+        #region print values
+        Console.WriteLine("g = " + g);
+        Console.WriteLine("m = " + m);
+        Console.WriteLine("n = " + n);
+        #endregion
     }
 }
