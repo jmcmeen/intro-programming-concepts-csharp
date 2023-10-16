@@ -1,5 +1,4 @@
 ﻿namespace _05_3_StaticClasses;  //alternate namespace declaration
-
 class Program
 {
     /// <summary>

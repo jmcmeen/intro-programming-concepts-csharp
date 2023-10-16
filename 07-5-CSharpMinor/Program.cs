@@ -15,11 +15,11 @@ namespace _07_5_CSharpMinor
         static void Main()
         {
             //Upper and lower bounds for random int generation
-            const int NUM_NOTES = 20;
+            const int NUM_NOTES = 200;
             const int DURATION_LOWER_BOUND = 50;
             const int DURATION_UPPER_BOUND = 500;
             const int PAUSE_DURATION_LOWER_BOUND = 0;
-            const int PAUSE_DURATION_UPPER_BOUND = 100;
+            const int PAUSE_DURATION_UPPER_BOUND = 5;
 
             //Declare some notes in the C# minor scale
             const int cSharp = 277;

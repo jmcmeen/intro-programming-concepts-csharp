@@ -39,7 +39,7 @@ namespace _07_4_ToxicRemix
             }
 
             //Guard clause, make sure this is a windows system
-            if (!OperatingSystem.IsWindows())
+            if (! OperatingSystem.IsWindows())
             {
                 return;
             }

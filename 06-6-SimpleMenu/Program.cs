@@ -10,7 +10,7 @@ namespace _06_SimpleMenu
     internal class Program
     {
         /// <summary>
-        /// Entry point for the application
+        /// Program entry point
         /// </summary>
         static void Main()
         {
