@@ -2,6 +2,8 @@
 // Email: jnmcmeen@northeaststate.edu
 // Project: CISP 1010 C# Examples
 
+using System.Drawing;
+
 namespace CISP1010
 {
     /// <summary>
@@ -15,6 +17,7 @@ namespace CISP1010
         static void Main()
         {
             int y;
+            double z;
 
             //use the first version of PrintWelcomeMessage
             PrintWelcomeMessage();
@@ -23,13 +26,25 @@ namespace CISP1010
             //Two or more methods with the same name is called method overloading
             PrintWelcomeMessage("Welcome!");
 
+            //Calculate square and return the value into y
             y = Square(9);
-
-            y = Add(4, 6);
-
-            double z = Add(5.0, 6.0);
-
             Console.WriteLine(y);
+
+            //Calculate sum and return the value into y
+            y = Add(4, 6);
+            Console.WriteLine(y);
+
+            //Calculate the sum and return the value in y
+            z = Add(5.0, 6.0);
+            Console.WriteLine(z);
+
+            //When you pass a value-type variable from one method to another,
+            //the system creates a separate copy of a variable in another method.
+            //If the value is changed in the one method, it doesn't affect the
+            //value in another method. 
+            Console.WriteLine($"the value of y is {y}");
+            TryToChangeValueType(y);
+            Console.WriteLine($"the value of y is {y}");
         }
 
         /// <summary>
@@ -86,6 +101,13 @@ namespace CISP1010
         static int Square(int x)
         {
             return x * x;
+        }
+
+        static void TryToChangeValueType(int anInt)
+        {
+            Console.WriteLine($"the value of anInt is {anInt}");
+            anInt = 42;
+            Console.WriteLine($"the value of anInt is {anInt}");
         }
     }
 }
