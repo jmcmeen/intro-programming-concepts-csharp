@@ -11,20 +11,22 @@ namespace _10_MultidimensionalArrays
         //Entry point for the application
         static void Main()
         {
-            int[,] scores = new int[5, 10];
+            // declare a 2D int array
+            int[,] scores = new int[5, 4];
 
-            Random r = new Random();
+            //create a Random object
+            Random random = new Random();
 
             //set all the values in multidimensional array
             for (int i = 0; i < scores.GetLength(0); i++)
             {
                 for (int j = 0; j < scores.GetLength(1); j++)
                 {
-                    scores[i, j] = r.Next(1, 7);
+                    scores[i, j] = random.Next(1, 7);
                 }
             }
 
-            //print allthe values in multidimensional array
+            //print all the values in multidimensional array
             for (int i = 0; i < scores.GetLength(0); i++)
             {
                 for (int j = 0; j < scores.GetLength(1); j++)

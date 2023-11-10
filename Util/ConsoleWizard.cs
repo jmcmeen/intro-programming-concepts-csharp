@@ -1,6 +1,6 @@
 ﻿namespace Util
 {
-    public class ConsoleWizard
+    public static class ConsoleWizard
     {
         public static ConsoleColor GetRandomColor()
         {

@@ -6,17 +6,17 @@
         {
             int arraySize = Prompt.ForInt("How many grades do you want to enter: ");
 
-            if(arraySize <= 0 ) 
+            if (arraySize <= 0)
             {
                 Console.WriteLine("Need to specify 1 or more grades: ");
                 return;
             }
-            
-            float[] grades = new float[arraySize];        
+
+            float[] grades = new float[arraySize];  
 
             for (int i = 0; i < grades.Length; i++)
             {
-                grades[i] = Prompt.ForFloat($"Enter grade {i + 1}: ");
+                grades[i] = Prompt.ForFloat($"Enter grade: ");
             }
 
             float gradeAverage = CalculateAverage1(grades);
@@ -35,6 +35,7 @@
             for (int i = 0; i < floats.Length; i++)
             {
                 total += floats[i];
+
             }
 
             //Calculate average

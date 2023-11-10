@@ -13,11 +13,13 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
+            int x = 5;
+
             //declaring an int array and instantiating the array
             int[] myNums = new int[5];
             string[] myNames = new string[5];
 
-            //indivisually assign a value to each
+            //individually assign a value to each
             myNums[0] = 1;
             myNums[1] = 2;
             myNums[2] = 4;

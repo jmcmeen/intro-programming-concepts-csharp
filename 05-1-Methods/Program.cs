@@ -53,12 +53,24 @@ namespace CISP1010
             Console.WriteLine("------------------------------------");
         }
 
-
+        /// <summary>
+        /// Adds two integers
+        /// </summary>
+        /// <param name="x"> The first integer</param>
+        /// <param name="y"> The seconds integer</param>
+        /// <returns> the sum of two integers</returns>
         static int Add(int x, int y)
         {
             return x + y;
         }
 
+
+        /// <summary>
+        /// Adds two doubles
+        /// </summary>
+        /// <param name="x">The first double</param>
+        /// <param name="y">The second double</param>
+        /// <returns>The sum of two doubles</returns>
         static double Add(double x, double y)
         {
             return x + y;
