@@ -15,7 +15,7 @@ namespace _07_6_CSharpMinorRemix
         /// <summary>
         /// Program entry point
         /// </summary>
-        static void Main(string[] args)
+        static void Main()
         {
             //In 7-4 a mthod for playing an array of notes was introduced
             //In 7-5 we examined playing random notes from an array, but did not use the play notes method

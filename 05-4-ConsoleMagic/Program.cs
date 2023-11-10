@@ -14,7 +14,7 @@ namespace _05_4_ConsoleMagic
         /// Program entry point. 
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
             //Methods that demonstrate the use of ConsoleWizard.dll
 

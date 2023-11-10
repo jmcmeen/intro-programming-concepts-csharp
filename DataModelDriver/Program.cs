@@ -8,7 +8,7 @@ namespace DataModelDriver
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Dice dice = new Dice();
 

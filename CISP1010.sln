@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-2-DefiningObjects", "11-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-1-ReferenceTypes", "12-1-ReferenceTypes\12-1-ReferenceTypes.csproj", "{B70E1817-B8E4-4C47-A21D-E973207479FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-1-CommandLineArguments", "08-1-CommandLineArguments\08-1-CommandLineArguments.csproj", "{F72B7758-001B-462D-A126-ADCDD7A23022}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -573,6 +575,18 @@ Global
 		{B70E1817-B8E4-4C47-A21D-E973207479FA}.Release|x64.Build.0 = Release|Any CPU
 		{B70E1817-B8E4-4C47-A21D-E973207479FA}.Release|x86.ActiveCfg = Release|Any CPU
 		{B70E1817-B8E4-4C47-A21D-E973207479FA}.Release|x86.Build.0 = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|x64.Build.0 = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Debug|x86.Build.0 = Debug|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|x64.ActiveCfg = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|x64.Build.0 = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|x86.ActiveCfg = Release|Any CPU
+		{F72B7758-001B-462D-A126-ADCDD7A23022}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,8 +2,6 @@
 // Email: jnmcmeen@northeaststate.edu
 // Project: CISP 1010 C# Examples
 
-using System.Drawing;
-
 namespace CISP1010
 {
     /// <summary>

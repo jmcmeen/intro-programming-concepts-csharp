@@ -10,7 +10,7 @@ namespace _07_4_ToxicRemix
         /// Program entry point
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main()
         {
             //contruct some notes, durations, and pauses arrays
             int[] toxicFrequencies = { 523, 523, 622, 587, 523, 587, 622, 1369, 1174, 1244, 1174, 1046 };

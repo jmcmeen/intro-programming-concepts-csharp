@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _12_1_ReferenceTypes
+﻿namespace _12_1_ReferenceTypes
 {
     internal class Circle
     {
