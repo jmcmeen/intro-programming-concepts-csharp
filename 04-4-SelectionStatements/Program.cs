@@ -1,12 +1,13 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 namespace CISP1010
 {
     /// <summary>
     /// A program to demonstrate selection statements (switch)
     /// </summary>
-    internal class SelectionStatements4
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

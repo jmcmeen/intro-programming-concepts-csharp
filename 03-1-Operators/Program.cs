@@ -1,12 +1,13 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 namespace _03_Operators
 {
     /// <summary>
     /// A program to demonstrate various operators
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

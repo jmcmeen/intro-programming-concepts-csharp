@@ -1,4 +1,8 @@
-﻿using System.IO;
+﻿
+// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 using System.IO.Compression;
 
 namespace LabZipCheck

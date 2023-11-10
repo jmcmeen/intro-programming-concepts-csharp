@@ -6,7 +6,7 @@ namespace _06_2_InputPromptAgain
     /// <summary>
     /// Demonstrates do-while loops, input looping, reprompting
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

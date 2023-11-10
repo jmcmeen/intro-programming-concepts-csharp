@@ -1,13 +1,14 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 namespace Toxic
 {
     /// <summary>
     /// A program dedicated to The Princess of Pop
     /// ...which demonstrates a void return type method with no parameters
     /// </summary>
-    internal class Program
+    internal static class Program
     {
 
         /// <summary>

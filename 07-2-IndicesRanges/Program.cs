@@ -1,12 +1,13 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 namespace _09_IndicesRanges
 {
     /// <summary>
     /// Demonstration of negative array indices and ranges
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

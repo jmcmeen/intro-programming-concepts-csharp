@@ -1,8 +1,18 @@
-﻿namespace _03_7_OperationOrder
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace _03_7_OperationOrder
 {
-    internal class Program
+    /// <summary>
+    /// Demonstrates order of operations
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
             //Operators in C# follow PEMDAS order of operations
             //P - parentheses

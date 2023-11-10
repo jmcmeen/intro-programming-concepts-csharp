@@ -1,12 +1,13 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
 namespace CISP1010
 {
     /// <summary>
     /// A program to demonstrate assignment operators
     /// </summary>
-    internal class HelloWorld
+    internal static class Program
     {
         /// <summary>
         /// Program entry point

@@ -1,4 +1,8 @@
-﻿namespace _11_0_Objects
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace _11_2_DefiningObjects
 {
     internal class Rectangle
     {

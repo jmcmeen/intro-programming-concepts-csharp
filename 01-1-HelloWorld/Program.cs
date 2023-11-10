@@ -1,18 +1,21 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
-namespace CISP1010 { }
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
 
-/// <summary>
-/// A simple "Hello World" program
-/// </summary>
-internal class Program
+namespace _01_1_HelloWorld
 {
+
     /// <summary>
-    /// Program entry point
+    /// A simple "Hello World" program
     /// </summary>
-    static void Main()
+    internal class Program
     {
-        Console.WriteLine("Hello World!");
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }

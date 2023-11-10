@@ -1,7 +1,8 @@
-﻿/// Name: John McMeen
-/// Email: jnmcmeen@northeaststate.edu
-/// Project: C# Examples
-namespace _01_HelloBeep
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace _01_2_HelloBeep
 {
     /// <summary>
     /// It literally just beeps. That is all.

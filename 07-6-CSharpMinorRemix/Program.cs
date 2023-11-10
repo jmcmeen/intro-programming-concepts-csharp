@@ -1,6 +1,7 @@
-﻿/// john mcmeen
-/// jnmcmeen@northeaststate.edu
-/// resources: https://www.piano-keyboard-guide.com/c-sharp-minor-scale.html
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+// Resources: https://www.piano-keyboard-guide.com/c-sharp-minor-scale.html
 
 using Util;
 
@@ -9,7 +10,7 @@ namespace _07_6_CSharpMinorRemix
     /// <summary>
     /// Demonstrates constants, arrays, for-loops, random numbers, methods
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Program entry point
