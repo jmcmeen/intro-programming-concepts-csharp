@@ -1,10 +1,14 @@
-﻿namespace _12_2_EnumeratedTypes
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace _12_2_EnumeratedTypes
 {
-    internal class Program
+    internal static class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+
         }
     }
 }

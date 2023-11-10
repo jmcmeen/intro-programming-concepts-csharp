@@ -1,6 +1,12 @@
-﻿namespace Util
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace Util
 {
-    //Static wrapper class to get random values without working with Random directly
+    /// <summary>
+    /// Static wrapper class to get random values without working with Random directly
+    /// </summary>
     public static class Fortuita
     {
         /// <summary>
@@ -17,8 +23,8 @@
         /// <summary>
         /// Returns a random int that is >=lowerBound and < upperBound
         /// </summary>
-        /// <param name="lowerBound">lower bound</param>
-        /// <param name="upperBound">upper bound</param>
+        /// <param name="lowerBound">lower bound (inclusive)</param>
+        /// <param name="upperBound">upper bound (exclusive)</param>
         /// <returns></returns>
         public static int GetRandomInt(int lowerBound, int upperBound)
         {

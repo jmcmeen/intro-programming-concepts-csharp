@@ -2,7 +2,7 @@
 // Email: jnmcmeen@northeaststate.edu
 // Project: CISP 1010 C# Examples
 
-namespace _11_1_UsingObjects
+namespace _11_0_Objects
 {
     internal static class Program
     {
@@ -21,7 +21,7 @@ namespace _11_1_UsingObjects
 
             //String/string
             string s = "Hello World"; //despite seeing strings defined like this, they are objects
-            String myString = new String("Hello World");
+            string myString = new string("Hello World");
             Console.WriteLine(myString);
             Console.WriteLine(myString.ToUpper()); // notice ToUpper return a completely new object referece, does not change the original object reference
             Console.WriteLine(myString);
