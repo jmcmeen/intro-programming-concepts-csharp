@@ -37,9 +37,11 @@ namespace CISP1010
             Console.WriteLine(z);
 
             //When you pass a value-type variable from one method to another,
-            //the system creates a separate copy of a variable in another method.
+            //the system creates a separate copy of the variable's value in another method.
             //If the value is changed in the one method, it doesn't affect the
             //value in another method. 
+
+            //This is called pass by value
             Console.WriteLine($"the value of y is {y}");
             TryToChangeValueType(y);
             Console.WriteLine($"the value of y is {y}");
@@ -101,6 +103,10 @@ namespace CISP1010
             return x * x;
         }
 
+        /// <summary>
+        /// Demnonstrates pass by value
+        /// </summary>
+        /// <param name="anInt">an integer value</param>
         static void TryToChangeValueType(int anInt)
         {
             Console.WriteLine($"the value of anInt is {anInt}");

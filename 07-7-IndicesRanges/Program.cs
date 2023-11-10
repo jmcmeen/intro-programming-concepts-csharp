@@ -2,7 +2,7 @@
 // Email: jnmcmeen@northeaststate.edu
 // Project: CISP 1010 C# Examples
 
-namespace _09_IndicesRanges
+namespace _07_7_IndicesRanges
 {
     /// <summary>
     /// Demonstration of negative array indices and ranges

@@ -14,12 +14,14 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
-            int x = 5;
-
-            //declaring an int array and instantiating the array
+            //declaring an int array of size 5 and instantiating the array
             int[] myNums = new int[5];
-            string[] myNames = new string[5];
 
+            //you can have arrays of any type, although myNums is use in this example
+            string[] myNames = new string[42];
+            char[] mychars = new char[100];
+
+            /*------------------manual access-------------------*/
             //individually assign a value to each
             myNums[0] = 1;
             myNums[1] = 2;
@@ -28,10 +30,11 @@ namespace CISP1010
             myNums[4] = 16;
             //myNums[5] = 32;
 
-
             //manually print each value
             Console.WriteLine($"{myNums[0]},{myNums[1]},{myNums[2]},{myNums[3]},{myNums[4]}");
             Console.WriteLine($"myNums length is {myNums.Length}\n");
+
+            /*------------------for-loop access----------------------*/
 
             //or walk through the array using for loop
             for (int i = 0; i < myNums.Length; i++)
@@ -52,12 +55,7 @@ namespace CISP1010
             //If you already have the values you want to store in mind, you can optionally create an array like this.
             int[] myNums2 = { 8, 6, 7, 5, 3, 0, 9 };
             PrintArrayOnOneLine(myNums2);
-
-            //Array are reference types, which means a memory address, where the data starts in memory, is stored in
-            //the variable, not a value like value types (integers, floating-point, chars)
-
         }
-
 
         /// <summary>
         /// Prints an array of integers to one line
