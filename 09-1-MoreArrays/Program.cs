@@ -12,7 +12,7 @@
                 return;
             }
 
-            float[] grades = new float[arraySize];  
+            float[] grades = new float[arraySize];
 
             for (int i = 0; i < grades.Length; i++)
             {

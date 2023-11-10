@@ -14,7 +14,7 @@ namespace _02_1_DataTypes
         /// </summary>
         static void Main()
         {
-       
+
             #region Declaring and printing variables
             //Declaring a variable called a
             int a;

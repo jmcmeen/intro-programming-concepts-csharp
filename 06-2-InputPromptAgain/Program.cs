@@ -23,11 +23,11 @@ namespace _06_2_InputPromptAgain
                 //Prompt user
                 Console.Write($"Enter a number of dice to roll greater than or equal to {MIN_VALUE}: ");
                 tempInput = Console.ReadLine();
-                numDice = Convert.ToInt32( tempInput );
+                numDice = Convert.ToInt32(tempInput);
 
-            }while( numDice < MIN_VALUE );
+            } while (numDice < MIN_VALUE);
 
-            Console.WriteLine( $"You entered {numDice}\n\n" );
+            Console.WriteLine($"You entered {numDice}\n\n");
 
 
             //We could do a little better and actually tell our user why we are asking again
@@ -38,7 +38,7 @@ namespace _06_2_InputPromptAgain
                 numDice = Convert.ToInt32(tempInput);
 
                 //if a bad value, say so
-                if(numDice < MIN_VALUE)
+                if (numDice < MIN_VALUE)
                 {
                     Console.WriteLine($"{numDice} is not greater than or equal to {MIN_VALUE}, try again.");
                 }

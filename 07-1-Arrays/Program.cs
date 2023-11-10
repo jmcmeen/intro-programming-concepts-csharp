@@ -28,10 +28,12 @@ namespace CISP1010
             myNums[4] = 16;
             //myNums[5] = 32;
 
-            Console.WriteLine($"{myNums[0]},{myNums[1]},{myNums[2]},{myNums[3]},{myNums[4]}");
-            Console.WriteLine($"myNums length is {myNums.Length}");
 
-            //walk through the array using for loop
+            //manually print each value
+            Console.WriteLine($"{myNums[0]},{myNums[1]},{myNums[2]},{myNums[3]},{myNums[4]}");
+            Console.WriteLine($"myNums length is {myNums.Length}\n");
+
+            //or walk through the array using for loop
             for (int i = 0; i < myNums.Length; i++)
             {
                 Console.WriteLine($"myNums[{i}] = {myNums[i]}");
@@ -40,7 +42,7 @@ namespace CISP1010
             Console.WriteLine();
 
             //walk through the array using a foreach
-            foreach(int num in myNums)
+            foreach (int num in myNums)
             {
                 Console.WriteLine(num);
             }
@@ -48,10 +50,19 @@ namespace CISP1010
             Console.WriteLine();
 
             //If you already have the values you want to store in mind, you can optionally create an array like this.
-            int[] myNums2 = {8, 6, 7, 5, 3, 0, 9 };
+            int[] myNums2 = { 8, 6, 7, 5, 3, 0, 9 };
             PrintArrayOnOneLine(myNums2);
+
+            //Array are reference types, which means a memory address, where the data starts in memory, is stored in
+            //the variable, not a value like value types (integers, floating-point, chars)
+
         }
 
+
+        /// <summary>
+        /// Prints an array of integers to one line
+        /// </summary>
+        /// <param name="array">an int array</param>
         static void PrintArrayOnOneLine(int[] array)
         {
             for (int i = 0; i < array.Length; i++)

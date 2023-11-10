@@ -21,7 +21,7 @@ namespace CISP1010
 
             //Ask for a value, the user will enter a value and press Enter
             Console.Write("Enter a int: ");
-            
+
             //The ReadLine method returns a string
             inputString = Console.ReadLine();
 

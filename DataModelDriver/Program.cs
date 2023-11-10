@@ -13,7 +13,7 @@ namespace DataModelDriver
             Dice dice = new Dice();
 
             Console.WriteLine("Rolling a d6 10 times");
-            
+
 
             for (int i = 0; i < 10; i++)
             {

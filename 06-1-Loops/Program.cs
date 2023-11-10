@@ -34,7 +34,7 @@ namespace CISP1010
                 LiftWeight();
                 LowerWeight();
                 counter++;
-            } 
+            }
             while (counter < 5);
 
             //The for-loop is designed for counting, and allows us to set up a counting

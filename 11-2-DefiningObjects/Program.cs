@@ -29,9 +29,9 @@ namespace _11_2_DefiningObjects
 
             //We can then call on the object to perform actions, or behaviors, against the data stored in them
             area = rectangle1.CalculateArea();
-            
+
             Console.WriteLine($"the area of rectangle1 is {area}");
-            
+
             //Each object stores its own data, so each instance is unique.
             //Here we are using the default constructor Rectangle().
             Rectangle rectangle2 = new Rectangle();

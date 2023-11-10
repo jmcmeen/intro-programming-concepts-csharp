@@ -15,7 +15,7 @@ namespace _11_1_UsingObjects
             Thread.Sleep(1000);
             Math.Min(5, 8);
             Console.WriteLine();
-            
+
             //Other classes need to be instantiated into Objects, usually because they hold
             //internal state data unique to each instance of an object. Here are some examples of using objects
 
@@ -29,7 +29,7 @@ namespace _11_1_UsingObjects
             //Random
             Random random = new Random();
             Console.WriteLine(random.Next());
-            Console.WriteLine(random.NextDouble()); 
+            Console.WriteLine(random.NextDouble());
             Console.WriteLine(random.NextInt64());
 
             //DateTime (DateTime is technically a Struct, more on that later)

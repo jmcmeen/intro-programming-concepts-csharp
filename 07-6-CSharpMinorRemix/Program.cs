@@ -22,7 +22,7 @@ namespace _07_6_CSharpMinorRemix
             //Here we are going to combine the approaches. 
 
             // since we will be using this number a lot, store it as a constant so we don't have to hunt down all literal instances if we want to change them
-            const int NUM_NOTES = 200; 
+            const int NUM_NOTES = 200;
 
             //Upper and lower bounds for random int generation
             const int DURATION_LOWER_BOUND = 50;
