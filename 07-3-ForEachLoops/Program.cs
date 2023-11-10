@@ -14,20 +14,35 @@ namespace CISP1010
         /// </summary>
         static void Main()
         {
-            //creat an array of integer values
-            int[] myIntegers = { 1, 32, 65, 127, 23225232, -1 };
+            //creat an array of strings
+            string[] someStrings = { "Hello", "World", "42" };
 
             //use a for loop to visit each element in the array
-            for (int i = 0; i < myIntegers.Length; i++)
+            for (int i = 0; i < someStrings.Length; i++)
             {
-                Console.Write(myIntegers[i] + " ");
+                Console.WriteLine(someStrings[i]);
             }
             Console.WriteLine();
 
             //use a foreach loop to create a read-only alias to an array element
-            foreach (int myInt in myIntegers)
+            foreach (string s in someStrings)
             {
-                Console.WriteLine(myInt);
+                Console.WriteLine(s);
+            }
+
+            Console.WriteLine();
+
+            //since a foreach loop variable is read only, you must use a for i loop if editing array values
+            for (int i = 0; i < someStrings.Length; i++)
+            {
+                //overwriting each element in the array
+                someStrings[i] = "overwritten";
+            }
+
+            //so foreach loops are used for access only
+            foreach (string s in someStrings)
+            {
+                Console.WriteLine(s);
             }
         }
     }
