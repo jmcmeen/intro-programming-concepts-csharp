@@ -39,6 +39,18 @@ public class Television
     }
 
     /// <summary>
+    /// Sets the channel if valid
+    /// </summary>
+    /// <param name="channel"> the channel to set the TV to</param>
+    public void SetChannel(ushort channel)
+    {
+        if (channel >= _MIN_CHANNEL && channel <= _MAX_CHANNEL)
+        {
+            _channel = channel;
+        }
+    }
+
+    /// <summary>
     /// Increments the Television's channel, or if the Television is currently equal to MAX_CHANNEL,
     /// will set the Television's channel to the MIN_CHANNEL
     /// </summary>
