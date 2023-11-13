@@ -66,6 +66,8 @@ namespace _13_1_DataModelling
 
             Console.WriteLine("Setting the channel to 42\n");
 
+            tv.SetChannel(42);
+
             Console.WriteLine(tv + "\n");
 
             Console.WriteLine("Setting the channel to 1000\n");
