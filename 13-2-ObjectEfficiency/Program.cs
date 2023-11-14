@@ -17,7 +17,7 @@ namespace _13_2_ObjectEfficiency
         /// </summary>
         static void Main()
         {
-            const int NUM_ROLLS = 100000000;
+            const int NUM_ROLLS = 1000000000;
 
             //declare a Stopwatch to track time
             Stopwatch stopWatch = new Stopwatch();
@@ -51,7 +51,7 @@ namespace _13_2_ObjectEfficiency
             //start stopwatch
             stopWatch.Start();
 
-            //create ClumsyDice object
+            //create Dice object
             Dice dice = new Dice();
 
             for (int i = 0; i < NUM_ROLLS; i++)
@@ -69,7 +69,7 @@ namespace _13_2_ObjectEfficiency
             elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}",
                 ts.Hours, ts.Minutes, ts.Seconds,
                 ts.Milliseconds / 10);
-            Console.WriteLine("ClumsyDice run time " + elapsedTime);
+            Console.WriteLine("Dice run time " + elapsedTime);
 
             //Why does Dice run faster than ClumsyDice?
         }
