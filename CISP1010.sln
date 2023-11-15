@@ -75,29 +75,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModels", "DataModels\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-1-UsingObjects", "11-1-UsingObjects\11-1-UsingObjects.csproj", "{507F12A5-77CF-42BE-BBB9-470F4A5FFCF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-2-DefiningObjects", "11-2-DefiningObjects\11-2-DefiningObjects.csproj", "{C7BC7BB3-68AC-4ED4-9EC1-459A4FD8A18D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-2-DefiningObjects", "11-2-DefiningObjects\11-2-DefiningObjects.csproj", "{C7BC7BB3-68AC-4ED4-9EC1-459A4FD8A18D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-1-ReferenceTypes", "12-1-ReferenceTypes\12-1-ReferenceTypes.csproj", "{B70E1817-B8E4-4C47-A21D-E973207479FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-1-ReferenceTypes", "12-1-ReferenceTypes\12-1-ReferenceTypes.csproj", "{B70E1817-B8E4-4C47-A21D-E973207479FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-1-CommandLineArguments", "08-1-CommandLineArguments\08-1-CommandLineArguments.csproj", "{F72B7758-001B-462D-A126-ADCDD7A23022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-1-CommandLineArguments", "08-1-CommandLineArguments\08-1-CommandLineArguments.csproj", "{F72B7758-001B-462D-A126-ADCDD7A23022}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-7-IndicesRanges", "07-7-IndicesRanges\07-7-IndicesRanges.csproj", "{3461F9C9-F95A-4918-BE1A-7A0B0E02459E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-7-IndicesRanges", "07-7-IndicesRanges\07-7-IndicesRanges.csproj", "{3461F9C9-F95A-4918-BE1A-7A0B0E02459E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2-ReferenceTypes", "07-2-ReferenceTypes\07-2-ReferenceTypes.csproj", "{F7ACA68D-8133-4A5D-930D-B11662752D08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-2-EnumeratedTypes", "12-2-EnumeratedTypes\12-2-EnumeratedTypes.csproj", "{28A64BCE-15E8-400A-B966-17BB9E6F6326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-2-EnumeratedTypes", "12-2-EnumeratedTypes\12-2-EnumeratedTypes.csproj", "{28A64BCE-15E8-400A-B966-17BB9E6F6326}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-3-ObjectsInTheWild", "12-3-ObjectsInTheWild\12-3-ObjectsInTheWild.csproj", "{98724D9C-8D30-4891-96C1-CEFD16562B41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12-3-ObjectsInTheWild", "12-3-ObjectsInTheWild\12-3-ObjectsInTheWild.csproj", "{98724D9C-8D30-4891-96C1-CEFD16562B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-1-Exceptions", "14-1-Exceptions\14-1-Exceptions.csproj", "{178B036B-0DE2-4E25-BE9D-C4F8891740B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14-1-Exceptions", "14-1-Exceptions\14-1-Exceptions.csproj", "{178B036B-0DE2-4E25-BE9D-C4F8891740B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-1-NuGetPackages", "15-1-NuGetPackages\15-1-NuGetPackages.csproj", "{BE9528AE-7FB0-4A25-9632-962913C94962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15-1-NuGetPackages", "15-1-NuGetPackages\15-1-NuGetPackages.csproj", "{BE9528AE-7FB0-4A25-9632-962913C94962}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-1-DataModelling", "13-1-DataModelling\13-1-DataModelling.csproj", "{E4F2FA5D-091F-4EC0-9421-532F864FF3E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-3-Namespaces", "11-3-Namespaces\11-3-Namespaces.csproj", "{776B04EF-1472-4C6D-A85E-3AC80DA338AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-3-Namespaces", "11-3-Namespaces\11-3-Namespaces.csproj", "{776B04EF-1472-4C6D-A85E-3AC80DA338AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-2-ObjectEfficiency", "13-2-ObjectEfficiency\13-2-ObjectEfficiency.csproj", "{CC92A870-58FC-44CE-9DFE-A0F754AC1388}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-2-ObjectEfficiency", "13-2-ObjectEfficiency\13-2-ObjectEfficiency.csproj", "{CC92A870-58FC-44CE-9DFE-A0F754AC1388}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
