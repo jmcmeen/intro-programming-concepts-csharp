@@ -6,6 +6,13 @@
         public double SideB { get; set; }
         public double SideC { get; set; }
 
+        public Triangle3()
+        {
+            SideA = 1;
+            SideB = 1;
+            SideC = 1;
+        }
+
         public Triangle3(double sideA, double sideB, double sideC)
         {
             this.SideA = sideA;

@@ -22,6 +22,7 @@ namespace _11_0_Objects
             //String/string
             string s = "Hello World"; //despite seeing strings defined like this, they are objects
             string myString = new string("Hello World");
+            String anotherString = new String("Another"); //string and String are equivalent
             Console.WriteLine(myString);
             Console.WriteLine(myString.ToUpper()); // notice ToUpper return a completely new object referece, does not change the original object reference
             Console.WriteLine(myString);

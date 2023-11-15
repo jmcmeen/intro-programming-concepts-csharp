@@ -20,7 +20,7 @@ namespace _11_2_DefiningObjects
 
             double area = CalculateRectangleArea(x, y);
 
-            //In object oriented programming, we create instances of classes, called objects
+            //In object oriented programming, we create instances of classes, called objects (instantiation)
             Rectangle rectangle1 = new Rectangle();
 
             //We then store and manipulate data in objects (encapsulation)
