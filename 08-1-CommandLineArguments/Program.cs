@@ -20,16 +20,16 @@ namespace _08_1_CommandLineArguments
             //array for above {"-c", "42", "3". "hello"}
 
             //see if arg array is empty
-            if(args.Length != 0)
+            if(args.Length == 0)
+            {
+                Console.WriteLine("No command line arguments specified!");
+            }
+            else
             {
                 foreach (string arg in args)
                 {
                     Console.WriteLine($"  {arg}");
                 }
-            }
-            else //if not print
-            {
-                Console.WriteLine("No command line arguments specified!");
             }
         }
     }
