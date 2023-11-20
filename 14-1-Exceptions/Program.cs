@@ -1,10 +1,29 @@
-﻿namespace _14_1_Exceptions
+﻿// Name: John McMeen
+// Email: jnmcmeen@northeaststate.edu
+// Project: CISP 1010 C# Examples
+
+namespace _14_1_Exceptions
 {
-    internal class Program
+    /// <summary>
+    /// Program that demonstrates Exceptions
+    /// </summary>
+    internal static class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            try
+            {
+                Console.Write("Enter a number to divide by: ");
+                int x = Convert.ToInt32(Console.ReadLine());
+                int y = 10 / x;
+            }
+            catch (Exception ex) 
+            { 
+                Console.WriteLine(ex.ToString());
+            }
         }
     }
 }
