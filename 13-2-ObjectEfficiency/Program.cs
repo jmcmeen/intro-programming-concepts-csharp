@@ -17,7 +17,7 @@ namespace _13_2_ObjectEfficiency
         /// </summary>
         static void Main()
         {
-            const int NUM_ROLLS = 1000000000;
+            const int NUM_ROLLS = 100000000;
 
             //declare a Stopwatch to track time
             Stopwatch stopWatch = new Stopwatch();

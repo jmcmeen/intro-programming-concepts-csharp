@@ -22,7 +22,7 @@
     </ShowAsAssociation>
   </Class>
   <Enum Name="_12_2_EnumeratedTypes.Rank">
-    <Position X="4.5" Y="2.5" Width="1.5" />
+    <Position X="5.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAAAAAAAAAggAAAEAAEAIAAAAAFBAAAAAgAAAgAAEE=</HashCode>
       <FileName>Rank.cs</FileName>
