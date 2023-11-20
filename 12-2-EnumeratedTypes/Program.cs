@@ -8,7 +8,8 @@ namespace _12_2_EnumeratedTypes
     {
         static void Main()
         {
-
+            Deck deck = new Deck();
+            deck.PrintCards();
         }
     }
 }
