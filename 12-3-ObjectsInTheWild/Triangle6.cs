@@ -6,10 +6,10 @@
         private double _sideB;
         private double _sideC;
 
-        public double SideA 
+        public double SideA
         {
-            get => _sideA; 
-            set => _sideA = value; 
+            get => _sideA;
+            set => _sideA = value;
         }
         public double SideB
         {

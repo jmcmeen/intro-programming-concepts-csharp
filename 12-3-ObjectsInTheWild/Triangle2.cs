@@ -54,7 +54,7 @@
         }
 
         public void SetSideC(double sideC)
-        { 
+        {
             this.sideC = sideC;
         }
     }

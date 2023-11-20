@@ -106,7 +106,7 @@ namespace Util
                 Thread.Sleep(waitTime);
             }
         }
-        
+
         /// <summary>
         /// Prints a scrolling message
         /// </summary>

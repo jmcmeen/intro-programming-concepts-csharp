@@ -19,7 +19,7 @@
             this.SideB = sideB;
             this.SideC = sideC;
         }
-        
+
         public double CalculateArea()
         {
             double s = (SideA + SideB + SideC) / 2; // Semi-perimeter

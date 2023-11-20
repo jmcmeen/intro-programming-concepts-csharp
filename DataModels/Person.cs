@@ -27,7 +27,7 @@ public class Person
     /// <summary>
     /// Default constructor
     /// </summary>
-    public Person(){ }
+    public Person() { }
 
     /// <summary>
     /// Parameterized constructor
