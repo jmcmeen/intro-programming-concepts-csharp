@@ -7,11 +7,15 @@
             int[] myArray = new int[1];
 
             myArray[0] = 1;
-
             PrintArray(myArray);
 
             myArray = AppendValue(myArray, 3);
+            PrintArray(myArray);
 
+            myArray = AppendValue(myArray, 5);
+            PrintArray(myArray);
+
+            myArray = AppendValue(myArray, 6);
             PrintArray(myArray);
         }
 

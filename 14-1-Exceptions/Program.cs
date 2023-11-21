@@ -14,6 +14,7 @@ namespace _14_1_Exceptions
         /// </summary>
         static void Main()
         {
+
             try
             {
                 Console.Write("Enter a number to divide by: ");
@@ -29,7 +30,7 @@ namespace _14_1_Exceptions
 
             try
             {
-                SomeMethod(3);
+                SomeMethod(0);
             }
             catch (Exception ex)
             {
@@ -39,21 +40,26 @@ namespace _14_1_Exceptions
             try
             {
                 Double.Parse("t");
-            }catch(Exception ex)
+            }
+            catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
             }
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="x"></param>
+        /// <exception cref="Exception"></exception>
         static void SomeMethod(int x)
         {
-            if (x == 3)
+            if (x == 0)
             {
-                throw new Exception("I don't like the value 3, it offends me.");
+                throw new Exception("I don't like the value 0, it offends me.");
             }
 
-            Console.WriteLine("Doing my things here without worrying about 3's");
+            Console.WriteLine("Doing my things here without worrying about 0's");
         }
     }
 }
