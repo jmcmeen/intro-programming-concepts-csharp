@@ -14,7 +14,6 @@ namespace _14_1_Exceptions
         /// </summary>
         static void Main()
         {
-
             try
             {
                 Console.Write("Enter a number to divide by: ");
@@ -26,24 +25,28 @@ namespace _14_1_Exceptions
             { 
                 Console.WriteLine("Yo, you messed up.");
                 Console.WriteLine(ex.ToString());
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
             }
-
+            
             try
             {
                 SomeMethod(0);
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.ToString() + "\n");
+                Console.WriteLine(ex.Message + "\n");
+                Console.WriteLine(ex.StackTrace + "\n");
             }
 
             try
             {
-                Double.Parse("t");
+                Convert.ToDouble("t");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.ToString());
             }
         }
 

@@ -1,10 +1,29 @@
-﻿namespace _15_1_NuGetPackages
+﻿using NAudio.Wave.SampleProviders;
+using NAudio.Wave;
+
+namespace _15_1_NuGetPackages
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            //NAudio
+            var sine20Seconds = new SignalGenerator()
+            {
+                Gain = 0.2,
+                Frequency = 500,
+                Type = SignalGeneratorType.Sin
+            }
+            .Take(TimeSpan.FromSeconds(20));
+            using (var wo = new WaveOutEvent())
+            {
+                wo.Init(sine20Seconds);
+                wo.Play();
+                while (wo.PlaybackState == PlaybackState.Playing)
+                {
+                    Thread.Sleep(500);
+                }
+            }
         }
     }
 }
