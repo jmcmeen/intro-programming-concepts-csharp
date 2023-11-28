@@ -46,4 +46,9 @@ public class Dice
     {
         return _random.Next(NumSides) + 1;
     }
+
+    public override string ToString()
+    {
+        return $"d{NumSides}";
+    }
 }

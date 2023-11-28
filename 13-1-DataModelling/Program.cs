@@ -11,6 +11,8 @@ namespace _13_1_DataModelling
             Console.WriteLine("Rolling a d6 10 times");
 
 
+
+
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(dice.NextRoll());
