@@ -11,10 +11,15 @@ namespace _13_4_ArraysOfToxicity
     /// </summary>
     internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Program entry point
+        /// </summary>
+        static void Main()
         {
+            //Create an array for note references
             Note[] toxicNotes = new Note[12];
 
+            //Instantiate objects for each note reference to point to 
             toxicNotes[0] = new Note(523, 200, 0);
             toxicNotes[1] = new Note(523, 200, 0);
             toxicNotes[2] = new Note(622, 100, 0);
@@ -28,9 +33,14 @@ namespace _13_4_ArraysOfToxicity
             toxicNotes[10] = new Note(1174, 200, 0);
             toxicNotes[11] = new Note(1046, 250, 0);
 
+            //Play the notes!
             PlayNotes(toxicNotes);
         }
 
+        /// <summary>
+        /// Plays each note in an array of notes using Console.Beep
+        /// </summary>
+        /// <param name="notes">The notes to play</param>
         static void PlayNotes(Note[] notes)
         {
             //Guard clause, make sure this is a windows system

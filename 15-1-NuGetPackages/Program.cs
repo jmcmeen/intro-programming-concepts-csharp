@@ -14,7 +14,7 @@ namespace _15_1_NuGetPackages
                 Frequency = 500,
                 Type = SignalGeneratorType.Sin
             }
-            .Take(TimeSpan.FromSeconds(20));
+            .Take(TimeSpan.FromSeconds(1));
             using (var wo = new WaveOutEvent())
             {
                 wo.Init(sine20Seconds);

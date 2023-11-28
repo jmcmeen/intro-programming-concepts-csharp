@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-3-ObjectArrays", "13-3-O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-4-ArraysOfToxicity", "13-4-ArraysOfToxicity\13-4-ArraysOfToxicity.csproj", "{BE2A95A4-58E4-45E8-8395-A3187397EDF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-2-ToxicNAudio", "15-2-ToxicNAudio\15-2-ToxicNAudio.csproj", "{D609D87F-F2BE-4091-BA79-78F37134F89C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -769,6 +771,18 @@ Global
 		{BE2A95A4-58E4-45E8-8395-A3187397EDF6}.Release|x64.Build.0 = Release|Any CPU
 		{BE2A95A4-58E4-45E8-8395-A3187397EDF6}.Release|x86.ActiveCfg = Release|Any CPU
 		{BE2A95A4-58E4-45E8-8395-A3187397EDF6}.Release|x86.Build.0 = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|x64.Build.0 = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D609D87F-F2BE-4091-BA79-78F37134F89C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
