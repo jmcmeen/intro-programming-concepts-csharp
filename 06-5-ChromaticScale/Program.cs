@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _06_5_ChromaticScale
+﻿namespace _06_5_ChromaticScale
 {
     /// <summary>
     /// Program class for Main method

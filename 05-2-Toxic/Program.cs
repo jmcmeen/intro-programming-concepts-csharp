@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace Toxic
+﻿namespace Toxic
 {
     /// <summary>
     /// A program dedicated to The Princess of Pop

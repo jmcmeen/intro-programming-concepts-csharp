@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace Util
+﻿namespace Util
 {
     /// <summary>
     /// Static wrapper class to get random values without working with Random directly

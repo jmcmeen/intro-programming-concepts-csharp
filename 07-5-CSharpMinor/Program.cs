@@ -1,9 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-// Resources: https://www.piano-keyboard-guide.com/c-sharp-minor-scale.html
-
-namespace _07_5_CSharpMinor
+﻿namespace _07_5_CSharpMinor
 {
     /// <summary>
     /// Demonstrates constants, arrays, random numbers, Console.Beep, guard clauses

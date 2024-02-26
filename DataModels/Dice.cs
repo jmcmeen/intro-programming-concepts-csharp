@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace DataModels;
+﻿namespace DataModels;
 
 /// <summary>
 /// Models a table top gaming die

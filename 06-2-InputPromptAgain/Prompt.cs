@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _06_2_InputPromptAgain
+﻿namespace _06_2_InputPromptAgain
 {
     /// <summary>
     /// Provides prompting methods for the console

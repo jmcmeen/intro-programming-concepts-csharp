@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace ComparisonOperators
+﻿namespace ComparisonOperators
 {
     /// <summary>
     /// A program to demonstrate comparison operators

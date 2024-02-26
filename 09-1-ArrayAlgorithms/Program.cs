@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace ArrayAlgorithms
+﻿namespace ArrayAlgorithms
 {
     /// <summary>
     /// A program to demonstrate common array algorithms

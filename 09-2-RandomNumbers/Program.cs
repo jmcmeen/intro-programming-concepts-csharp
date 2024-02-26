@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _09_RandomNumbers
+﻿namespace _09_RandomNumbers
 {
     /// <summary>
     /// Demonstration of Random object

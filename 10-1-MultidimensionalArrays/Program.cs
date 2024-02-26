@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _10_MultidimensionalArrays
+﻿namespace _10_MultidimensionalArrays
 {
     /// <summary>
     /// Demonstration of multidimensional arrays

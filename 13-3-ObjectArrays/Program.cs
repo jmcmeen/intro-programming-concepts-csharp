@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-using DataModels;
+﻿using DataModels;
 
 namespace _13_3_ObjectArrays
 {

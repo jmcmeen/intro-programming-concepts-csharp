@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _08_1_CommandLineArguments
+﻿namespace _08_1_CommandLineArguments
 {
     /// <summary>
     /// Demonstrates the use of command line arguments

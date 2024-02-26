@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _05_3_ClassLibraries //namespace block, similar to namespace declaration, no difference in functionality
+﻿namespace _05_3_ClassLibraries //namespace block, similar to namespace declaration, no difference in functionality
 {
     /// <summary>
     /// Provides prompting methods for the console

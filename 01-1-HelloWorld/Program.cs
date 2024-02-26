@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _01_1_HelloWorld
+﻿namespace _01_1_HelloWorld
 {
 
     /// <summary>

@@ -1,9 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-// Resources: https://www.piano-keyboard-guide.com/c-sharp-minor-scale.html
-
-using Util;
+﻿using Util;
 
 namespace _07_6_CSharpMinorRemix
 {

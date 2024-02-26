@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _07_4_ToxicRemix
+﻿namespace _07_4_ToxicRemix
 {
     internal static class Program
     {

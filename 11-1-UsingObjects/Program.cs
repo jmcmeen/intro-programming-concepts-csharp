@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _11_0_Objects
+﻿namespace _11_0_Objects
 {
     internal static class Program
     {

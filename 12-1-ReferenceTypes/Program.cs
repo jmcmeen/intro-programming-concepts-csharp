@@ -1,9 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-// Resources: https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type
-
-namespace _12_1_ReferenceTypes
+﻿namespace _12_1_ReferenceTypes
 {
     /// <summary>
     /// Demonstrates differences in value types and reference types

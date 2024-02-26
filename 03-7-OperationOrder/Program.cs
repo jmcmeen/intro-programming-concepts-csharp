@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _03_7_OperationOrder
+﻿namespace _03_7_OperationOrder
 {
     /// <summary>
     /// Demonstrates order of operations

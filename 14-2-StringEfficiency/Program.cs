@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Text;
 
 namespace _14_2_StringEfficiency

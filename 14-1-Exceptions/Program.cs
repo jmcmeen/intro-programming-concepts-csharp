@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _14_1_Exceptions
+﻿namespace _14_1_Exceptions
 {
     /// <summary>
     /// Program that demonstrates Exceptions

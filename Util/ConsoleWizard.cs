@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace Util
+﻿namespace Util
 {
     /// <summary>
     /// Collection of static methods for Console manipulation

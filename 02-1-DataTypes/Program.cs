@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _02_1_DataTypes
+﻿namespace _02_1_DataTypes
 {
     /// <summary>
     /// A program that demonstrates declaring variables of common C# types

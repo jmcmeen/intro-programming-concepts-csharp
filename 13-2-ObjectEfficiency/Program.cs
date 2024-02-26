@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-using DataModels;
+﻿using DataModels;
 using System.Diagnostics;
 
 namespace _13_2_ObjectEfficiency

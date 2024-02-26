@@ -1,7 +1,4 @@
-﻿/// john mcmeen
-/// jnmcmeen@northeaststate.edu
-
-namespace _06_2_InputPromptAgain
+﻿namespace _06_2_InputPromptAgain
 {
     /// <summary>
     /// Demonstrates do-while loops, input looping, reprompting

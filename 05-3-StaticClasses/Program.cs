@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _05_3_ClassLibraries
+﻿namespace _05_3_ClassLibraries
 {
     /// <summary>
     /// Demonstrates using programmer defined static classes

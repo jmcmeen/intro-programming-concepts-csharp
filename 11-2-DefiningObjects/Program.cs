@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _11_2_DefiningObjects
+﻿namespace _11_2_DefiningObjects
 {
     /// <summary>
     /// Demonstrates using a custom created object and procedural vs. object oriented programming

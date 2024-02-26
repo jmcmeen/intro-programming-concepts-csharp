@@ -1,8 +1,4 @@
-﻿// Name: John McMeen
-// Email: jnmcmeen@northeaststate.edu
-// Project: CISP 1010 C# Examples
-
-namespace _12_1_ReferenceTypes
+﻿namespace _12_1_ReferenceTypes
 {
     /// <summary>
     /// Models a circle
