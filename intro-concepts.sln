@@ -109,9 +109,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDriver", "TestDriver\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-3-ObjectArrays", "13-3-ObjectArrays\13-3-ObjectArrays.csproj", "{C30D4C00-062C-4DD3-AEF6-C540548CBB90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-4-ArraysOfToxicity", "13-4-ArraysOfToxicity\13-4-ArraysOfToxicity.csproj", "{BE2A95A4-58E4-45E8-8395-A3187397EDF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-4-ArraysOfToxicity", "13-4-ArraysOfToxicity\13-4-ArraysOfToxicity.csproj", "{BE2A95A4-58E4-45E8-8395-A3187397EDF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-2-ToxicNAudio", "15-2-ToxicNAudio\15-2-ToxicNAudio.csproj", "{D609D87F-F2BE-4091-BA79-78F37134F89C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15-2-ToxicNAudio", "15-2-ToxicNAudio\15-2-ToxicNAudio.csproj", "{D609D87F-F2BE-4091-BA79-78F37134F89C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
