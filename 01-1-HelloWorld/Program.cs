@@ -3,7 +3,7 @@
 
     /// <summary>
     /// A simple "Hello World" program
-    /// </summary>
+    /// </summary> 
     internal class Program
     {
         /// <summary>
