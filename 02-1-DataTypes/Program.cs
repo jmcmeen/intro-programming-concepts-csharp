@@ -10,8 +10,6 @@
         /// </summary>
         static void Main()
         {
-
-            #region Declaring and printing variables
             //Declaring a variable called a
             int a;
 
@@ -31,9 +29,7 @@
             //print a, print a new line, print b
             Console.WriteLine(a);
             Console.WriteLine(b);
-            #endregion
 
-            #region Data types
             //Here I declare and assign values to variables of several C# data types
             //The data type's size and range are list on the end of line comment
 
@@ -88,9 +84,7 @@
             Console.WriteLine("s = " + s);
             Console.WriteLine("t = " + t);
             Console.WriteLine("u = " + u);
-            #endregion
 
-            #region Variable naming
             //Variable names are your choice! Name them wisely as meaningful variable names help code readbility
             //which code is more expressive?
 
@@ -104,10 +98,6 @@
             double width = 3;
             double area = length * width;
             Console.WriteLine("Area" + area);
-
-            #endregion
-
-
         }
     }
 }
