@@ -21,6 +21,8 @@
             d = c / 2;   //divide
             e = d % 2;   //remainder (modulus)
 
+            // the addition operator changes its name when used with strings
+            // this is the concatentation operator
             Console.WriteLine("a = " + a);
             Console.WriteLine("b = " + b);
             Console.WriteLine("c = " + c);
