@@ -32,7 +32,7 @@
                 Console.WriteLine("The values are not equal.");
             }
 
-            //Comparison operators are:
+            //Comparison and equality operators are:
             // == equal to
             // != not equal
             // > greater than

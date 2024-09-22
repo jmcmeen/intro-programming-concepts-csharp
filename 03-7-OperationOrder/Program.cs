@@ -19,6 +19,9 @@
 
             Console.WriteLine($"{(212.0 - 32) * 5 / 9}");
             Console.WriteLine($"{(212.0 - 32) * (5 / 9)}");
+
+            //TODO show short circuit operations with Boolean operators
+            //TODO show order of operations in logical statement
         }
     }
 }

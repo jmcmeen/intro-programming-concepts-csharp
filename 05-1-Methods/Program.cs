@@ -59,7 +59,6 @@
         /// <param name="message">Message to print</param>
         static void PrintWelcomeMessage(string message)
         {
-            message = "Not Something";
             Console.WriteLine("------------------------------------");
             Console.WriteLine($"            {message}      ");
             Console.WriteLine("------------------------------------");
@@ -68,26 +67,24 @@
         /// <summary>
         /// Adds two integers
         /// </summary>
-        /// <param name="x"> The first integer</param>
-        /// <param name="y"> The seconds integer</param>
+        /// <param name="value1"> The first integer</param>
+        /// <param name="value2"> The seconds integer</param>
         /// <returns> the sum of two integers</returns>
-        static int Add(int x, int y)
+        static int Add(int value1, int value2)
         {
-            return x + y;
+            return value1 + value2;
         }
-
 
         /// <summary>
         /// Adds two doubles
         /// </summary>
-        /// <param name="x">The first double</param>
-        /// <param name="y">The second double</param>
+        /// <param name="value1">The first double</param>
+        /// <param name="value2">The second double</param>
         /// <returns>The sum of two doubles</returns>
-        static double Add(double x, double y)
+        static double Add(double value1, double value2)
         {
-            return x + y;
+            return value1 + value2;
         }
-
 
         /// <summary>
         /// Squares an int

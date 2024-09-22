@@ -1,7 +1,7 @@
 ﻿namespace Util
 {
     /// <summary>
-    /// Collection of static methods for Console manipulation
+    /// Collection of static methods for modifying Console behavior
     /// </summary>
     public static class ConsoleWizard
     {

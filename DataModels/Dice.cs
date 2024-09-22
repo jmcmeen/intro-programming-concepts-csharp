@@ -13,7 +13,7 @@ public class Dice
     /// <summary>
     /// Random number generator
     /// </summary>
-    private Random _random;
+    private Random _randomNumberGenerator;
 
     /// <summary>
     /// Default constructor
@@ -21,7 +21,7 @@ public class Dice
     public Dice()
     {
         NumSides = 6;
-        _random = new Random();
+        _randomNumberGenerator = new Random();
     }
 
     /// <summary>
@@ -31,7 +31,7 @@ public class Dice
     public Dice(int numSides)
     {
         NumSides = numSides;
-        _random = new Random();
+        _randomNumberGenerator = new Random();
     }
 
     /// <summary>
@@ -40,7 +40,7 @@ public class Dice
     /// <returns>a random number between 1 and NumSides</returns>
     public int NextRoll()
     {
-        return _random.Next(NumSides) + 1;
+        return _randomNumberGenerator.Next(NumSides) + 1;
     }
 
     public override string ToString()

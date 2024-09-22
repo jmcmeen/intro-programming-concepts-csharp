@@ -15,7 +15,8 @@
 
             //Prompt the user for a value
             Console.Write("Enter an integer value: ");
-            value = Convert.ToInt32(Console.ReadLine());
+            string tempInput = Console.ReadLine();
+            value = Convert.ToInt32(tempInput);
 
             //Prints a message if the user enters 0
             if (value == 0)
