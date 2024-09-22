@@ -66,9 +66,9 @@ class Program
     /// <summary>
     /// Combines stuff, duh
     /// </summary>
-    /// <param name="val1">The first value to the combined</param>
-    /// <param name="val2">The second value to the combined</param>
-    /// <param name="val3">The third value to the combined</param>
+    /// <param name="val1">The first value to be combined</param>
+    /// <param name="val2">The second value to be combined</param>
+    /// <param name="val3">The third value to be combined</param>
     /// <returns>The values combined, but also turbo divided first.</returns>
     static decimal SuperCombiner(int val1, int val2, int val3)
     {
