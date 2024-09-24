@@ -77,7 +77,7 @@ class Program
     }
 
     /// <summary>
-    /// Multiplies a number by 0.0000000000001, and by no right is no better than the * operator
+    /// Multiplies a number by 0.0000000000001, and by no right is it any better than the * operator
     /// </summary>
     /// <param name="x">x</param>
     /// <returns>input</returns>
