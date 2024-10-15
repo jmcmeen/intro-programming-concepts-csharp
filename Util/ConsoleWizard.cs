@@ -93,7 +93,7 @@
         /// Prints scrolling text with rainbow color
         /// </summary>
         /// <param name="message">message to print</param>
-        /// <param name="waitTime"> time to wait betwen each character</param>
+        /// <param name="waitTime"> time to wait between each character</param>
         public static void PrintRainbowScroll(string message, int waitTime)
         {
             foreach (char c in message)

@@ -1,4 +1,5 @@
 ﻿using Util;
+
 namespace _05_4_ConsoleMagic
 {
     /// <summary>
@@ -9,7 +10,6 @@ namespace _05_4_ConsoleMagic
         /// <summary>
         /// Program entry point. 
         /// </summary>
-        /// <param name="args"></param>
         static void Main()
         {
             //Methods that demonstrate the use of ConsoleWizard.dll

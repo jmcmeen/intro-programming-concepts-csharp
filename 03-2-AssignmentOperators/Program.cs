@@ -25,15 +25,27 @@
             intOperand1 += 5;
             Console.WriteLine("intOperand1 = " + intOperand1);
 
-            //Subtraction assignment
+            // Subtraction and assignment
+            intOperand1 = intOperand1 - 5;
+            Console.WriteLine("intOperand1 = " + intOperand1);
+
+            //Subtraction assignment simplified
             intOperand1 -= 5;
             Console.WriteLine("intOperand1 = " + intOperand1);
 
-            //Multiplication assignment
+            // Multiplication and assignment
+            intOperand1 = intOperand1 * 5;
+            Console.WriteLine("intOperand1 = " + intOperand1);
+
+            //Multiplication assignment simplified
             intOperand1 *= 5;
             Console.WriteLine("intOperand1 = " + intOperand1);
 
-            //Division assignment
+            // Division and assignment
+            intOperand1 = intOperand1 / 5;
+            Console.WriteLine("intOperand1 = " + intOperand1);
+
+            //Division assignment simplified
             intOperand1 /= 5;
             Console.WriteLine("intOperand1 = " + intOperand1);
         }

@@ -11,12 +11,12 @@
         static void Main()
         {
             //declare some variables
-            string inputString;
+            string? inputString;
             char inputChar;
             int x;
 
             //Ask for a value, the user will enter a value and press Enter
-            Console.Write("Enter a int: ");
+            Console.Write("Enter a integer value: ");
 
             //The ReadLine method returns a string
             inputString = Console.ReadLine();

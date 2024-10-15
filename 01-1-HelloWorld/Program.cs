@@ -1,6 +1,5 @@
 ﻿namespace _01_1_HelloWorld
 {
-
     /// <summary>
     /// A simple "Hello World" program
     /// </summary> 

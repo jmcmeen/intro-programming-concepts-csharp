@@ -15,7 +15,6 @@
             //each step in a for loop.
 
             int counter = 0; //establish starting point
-
             while (counter < 5)
             { //evaluate logic condition
                 LiftWeight();

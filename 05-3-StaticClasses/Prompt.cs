@@ -1,4 +1,4 @@
-﻿namespace _05_3_ClassLibraries //namespace block, similar to namespace declaration, no difference in functionality
+﻿namespace _05_3_ClassLibraries
 {
     /// <summary>
     /// Provides prompting methods for the console

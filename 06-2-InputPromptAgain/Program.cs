@@ -14,20 +14,6 @@
             string tempInput;
             int numDice;
 
-            //Prompt for a value and if it is acceptable, break out of the loop, otherwise, prompt again
-            do
-            {
-                //Prompt user
-                Console.Write($"Enter a number of dice to roll greater than or equal to {MIN_VALUE}: ");
-                tempInput = Console.ReadLine();
-                numDice = Convert.ToInt32(tempInput);
-
-            } while (numDice < MIN_VALUE);
-
-            Console.WriteLine($"You entered {numDice}\n\n");
-
-
-            //We could do a little better and actually tell our user why we are asking again
             do
             {
                 Console.Write($"Enter a number of dice to roll greater than or equal to {MIN_VALUE}: ");

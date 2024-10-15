@@ -16,11 +16,12 @@
             bool theFinalBool = false;
             int intValue = 1;
 
-            //Logical operators are gernerally used in if statements and loops to evaluate some logical condition
-            //If blocks only evaluate if the expression in true
+            //Logical operators are generally used in if statements and loops to evaluate some logical condition
+            //If blocks only execute the statements in their block
+            //if the expression given is true
             if (aBool)
             {
-                Console.WriteLine("The value of true1 is " + aBool);
+                Console.WriteLine("The value of aBool is " + aBool);
             }
 
             //Logical operators allow us to combine logic operations
@@ -28,7 +29,7 @@
             //Demonstrate logical AND - && - returns true if both statements are true
             if (aBool && anotherBool)
             {
-                Console.WriteLine("Both statements are true");
+                Console.WriteLine("Both boolean operands are true");
             }
 
             //the following if block will be skipped because one statement is false
@@ -40,7 +41,7 @@
             //the following if block will be skipped because one statement is false
             if (theFinalBool && theFinalBool)
             {
-                Console.WriteLine("I won't be printed because AND logic");
+                Console.WriteLine("I won't be printed because of AND logic");
             }
 
             //Demonstrate logical OR - || - returns true if one statement is true
@@ -48,11 +49,13 @@
             {
                 Console.WriteLine("At lease one statement is true");
             }
+
             //This block is true
             if (aBool || theFinalBool)
             {
                 Console.WriteLine("At lease one statement is true");
             }
+
             //This block will be skipped
             if (theFinalBool || theFinalBool)
             {

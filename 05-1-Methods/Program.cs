@@ -15,10 +15,19 @@
 
             //use the first version of PrintWelcomeMessage
             PrintWelcomeMessage();
+            PrintWelcomeMessage();
+            PrintWelcomeMessage();
 
             //This is another version, which takes a parameter and prints what is passed in
             //Two or more methods with the same name is called method overloading
             PrintWelcomeMessage("Welcome!");
+
+            Console.Write("Enter a message value: ");
+            string? input  = Console.ReadLine();
+
+            PrintWelcomeMessage(input);
+
+            Console.Clear();
 
             //Calculate square and return the value into y
             y = Square(9);
@@ -29,7 +38,7 @@
             Console.WriteLine(y);
 
             //Calculate the sum and return the value in y
-            z = Add(5.0, 6.0);
+            z = Add(5.1, 6.3);
             Console.WriteLine(z);
 
             //When you pass a value-type variable from one method to another,
@@ -39,7 +48,7 @@
 
             //This is called pass by value
             Console.WriteLine($"the value of y is {y}");
-            TryToChangeValueType(y);
+            TryToChangeValue(y);
             Console.WriteLine($"the value of y is {y}");
         }
 
@@ -57,7 +66,7 @@
         /// Prints a welcome message specified by the user
         /// </summary>
         /// <param name="message">Message to print</param>
-        static void PrintWelcomeMessage(string message)
+        static void PrintWelcomeMessage(string? message)
         {
             Console.WriteLine("------------------------------------");
             Console.WriteLine($"            {message}      ");
@@ -97,10 +106,10 @@
         }
 
         /// <summary>
-        /// Demnonstrates pass by value
+        /// Demonstrates pass by value
         /// </summary>
         /// <param name="anInt">an integer value</param>
-        static void TryToChangeValueType(int anInt)
+        static void TryToChangeValue(int anInt)
         {
             Console.WriteLine($"the value of anInt is {anInt}");
             anInt = 42;

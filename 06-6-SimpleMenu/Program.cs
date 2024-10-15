@@ -15,6 +15,7 @@
             char choice;
             do
             {
+                //Ask the user to make a choice
                 choice = ShowMenu();
 
                 switch (choice)

@@ -10,10 +10,10 @@
         /// </summary>
         static void Main()
         {
-            //Notes: Here we are mainly using the + operator with integer operands
-            //which performs an arithmetic operation. However, when an operand is
-            //a string, then it will concatenate, or combine, the values to
-            //make a new string. This is demonstrated in the WriteLine methods below.
+            // Notes: Here we are mainly using the + operator with integer operands
+            // which performs an arithmetic operation. However, when an operand is
+            // a string, then it will concatenate, or combine, the values to
+            // make a new string. This is demonstrated in the WriteLine methods below.
 
             //Declare some variables to use in this program
             int intOperand1;
@@ -40,7 +40,7 @@
             intResult = intOperand1 / intOperand2;
             Console.WriteLine(intOperand1 + " / " + intOperand2 + " = " + intResult);
 
-            //Modulus the values and display result (remainder)
+            //Divide the values and display the remainder (modulus)
             intResult = intOperand1 % intOperand2;
             Console.WriteLine(intOperand1 + " % " + intOperand2 + " = " + intResult);
 
