@@ -1,4 +1,4 @@
-﻿namespace Toxic
+﻿namespace _05_2_Toxic
 {
     /// <summary>
     /// A program dedicated to The Princess of Pop

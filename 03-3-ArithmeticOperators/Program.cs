@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _03_3_ArithmeticOperators
 {
     /// <summary>
     /// A program to demonstrate arithmetic operators

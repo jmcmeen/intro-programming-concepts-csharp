@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _03_5_LogicalOperators
 {
     /// <summary>
     /// A program to demonstrate Boolean logical operators

@@ -1,4 +1,4 @@
-﻿using Util;
+﻿using LabUtils;
 
 namespace _05_4_ConsoleMagic
 {

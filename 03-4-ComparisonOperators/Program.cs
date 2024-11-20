@@ -1,4 +1,4 @@
-﻿namespace ComparisonOperators
+﻿namespace _03_4_ComparisonOperators
 {
     /// <summary>
     /// A program to demonstrate comparison operators

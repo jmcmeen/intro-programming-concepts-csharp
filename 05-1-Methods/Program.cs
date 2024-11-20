@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _05_1_Methods
 {
     /// <summary>
     /// A program that demonstrates using static methods

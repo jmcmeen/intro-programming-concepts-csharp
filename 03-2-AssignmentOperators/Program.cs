@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _03_2_AssignmentOperators
 {
     /// <summary>
     /// A program to demonstrate assignment operators

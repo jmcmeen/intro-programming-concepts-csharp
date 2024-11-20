@@ -1,6 +1,4 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace CISP1010
+﻿namespace _04_4_SelectionStatements
 {
     /// <summary>
     /// A program to demonstrate selection statements (switch)

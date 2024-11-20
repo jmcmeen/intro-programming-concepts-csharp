@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _03_6_ConsoleInput
 {
     /// <summary>
     /// A program to demonstrate input using the Console class

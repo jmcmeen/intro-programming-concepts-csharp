@@ -1,4 +1,4 @@
-﻿namespace CISP1010
+﻿namespace _04_1_SelectionStatements
 {
     /// <summary>
     /// A program to demonstrate selection statements (if)

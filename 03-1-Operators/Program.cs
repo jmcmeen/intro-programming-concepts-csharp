@@ -1,4 +1,4 @@
-﻿namespace _03_Operators
+﻿namespace _03_1_Operators
 {
     /// <summary>
     /// A program to demonstrate various operators
@@ -12,7 +12,7 @@
         {
             //declare some variables
             int a, b, c, d, e;
-            bool f, g, h, i, j, k, l, m, n, o, p, q, r, s;
+            bool f, g, h, i, j, k, l, m, n, o, p, q, r;
 
             //examples of arithmetic operators 
             a = 10 + 3;  //add
