@@ -1,4 +1,6 @@
-﻿namespace _09_1_CommandLineArguments
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace _09_1_CommandLineArguments
 {
     /// <summary>
     /// Demonstrates the use of command line arguments
@@ -24,9 +26,37 @@
             {
                 foreach (string arg in args)
                 {
-                    Console.WriteLine($"  {arg}");
+                    //Console.WriteLine($"  {arg}");
+
+                    if (arg.ToLower().Equals("beep"))
+                    {
+                        Beep();
+                        return;
+                    }
+                    
+                    if (arg.ToLower().Equals("poe"))
+                    {
+                        Poe();
+                        return;
+                    }
                 }
             }
+        }
+        
+        /// <summary>
+        /// Makles a beep
+        /// </summary>
+        public static void Beep()
+        {
+            Console.Beep();
+        }
+
+        /// <summary>
+        /// Talks some Poe nonsense
+        /// </summary>
+        public static void Poe()
+        {
+            Console.WriteLine("We love with a love that more than love.");
         }
     }
 }

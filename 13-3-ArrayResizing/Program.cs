@@ -38,7 +38,7 @@
                 newArray[i] = array[i];
             }
 
-            newArray[^1] = value;
+            newArray[newArray.Length - 1] = value;
 
             return newArray;
         }

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "09-1-CommandLineArguments": {
+      "commandName": "Project",
+      "commandLineArgs": "poe"
+    }
+  }
+}
